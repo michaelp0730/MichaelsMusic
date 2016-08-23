@@ -1,0 +1,30 @@
+﻿<!-- Start Top Bar -->
+<div class="top-bar">
+    <div class="row">
+        <div class="top-bar-left">
+            <ul class="dropdown menu" data-dropdown-menu>
+                <li class="menu-text">
+                    @Html.ActionLink("Michael's Music", "Index", "Home", new {area = ""}, new {@class = "navbar-brand"})
+                </li>
+                <li class="has-submenu">
+                    <a href="#">One</a>
+                    <ul class="submenu menu vertical" data-submenu>
+                        <li><a href="#">One</a></li>
+                        <li><a href="#">Two</a></li>
+                        <li><a href="#">Three</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Guitars</a></li>
+                <li><a href="#">Amps</a></li>
+                <li>@Html.ActionLink("About", "About", "Home")</li>
+            </ul>
+        </div>
+        <div class="top-bar-right">
+            <ul class="menu">
+                <li><input type="search" placeholder="Search"></li>
+                <li><button type="button" class="button">Search</button></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- End Top Bar -->
