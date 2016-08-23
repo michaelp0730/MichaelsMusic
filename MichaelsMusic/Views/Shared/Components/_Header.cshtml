@@ -7,15 +7,26 @@
                     @Html.ActionLink("Michael's Music", "Index", "Home", new {area = ""}, new {@class = "navbar-brand"})
                 </li>
                 <li class="has-submenu">
-                    <a href="#">One</a>
+                    <a href="#">Guitars</a>
                     <ul class="submenu menu vertical" data-submenu>
-                        <li><a href="#">One</a></li>
-                        <li><a href="#">Two</a></li>
-                        <li><a href="#">Three</a></li>
+                        <li><a href="#">All Guitars</a></li>
+                        <li><a href="#">My Guitars</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Guitars</a></li>
-                <li><a href="#">Amps</a></li>
+                <li class="has-submenu">
+                    <a href="#">Amps</a>
+                    <ul class="submenu menu vertical" data-submenu>
+                        <li><a href="#">All Amps</a></li>
+                        <li><a href="#">My Amps</a></li>
+                    </ul>
+                </li>
+                <li class="has-submenu">
+                    <a href="#">Pedals</a>
+                    <ul class="submenu menu vertical" data-submenu>
+                        <li><a href="#">All Pedals</a></li>
+                        <li><a href="#">My Pedals</a></li>
+                    </ul>
+                </li>
                 <li>@Html.ActionLink("About", "About", "Home")</li>
             </ul>
         </div>
