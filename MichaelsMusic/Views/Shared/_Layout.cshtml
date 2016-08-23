@@ -9,35 +9,48 @@
 
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                @Html.ActionLink("Michael's Music", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+    <!-- Start Top Bar -->
+    <div class="top-bar">
+        <div class="row">
+            <div class="top-bar-left">
+                <ul class="dropdown menu" data-dropdown-menu>
+                    <li class="menu-text">
+                        @Html.ActionLink("Michael's Music", "Index", "Home", new {area = ""}, new {@class = "navbar-brand"})
+                    </li>
+                    <li class="has-submenu">
+                        <a href="#">One</a>
+                        <ul class="submenu menu vertical" data-submenu>
+                            <li><a href="#">One</a></li>
+                            <li><a href="#">Two</a></li>
+                            <li><a href="#">Three</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Guitars</a></li>
+                    <li><a href="#">Amps</a></li>
                     <li>@Html.ActionLink("About", "About", "Home")</li>
                 </ul>
-                @Html.Partial("_LoginPartial")
+            </div>
+            <div class="top-bar-right">
+                <ul class="menu">
+                    <li><input type="search" placeholder="Search"></li>
+                    <li><button type="button" class="button">Search</button></li>
+                </ul>
             </div>
         </div>
     </div>
-    <div class="container body-content">
+    <!-- End Top Bar -->
+
+    <div class="row column">
         @RenderBody()
-        <hr />
+        <hr/>
         <footer>
             <p>&copy; @DateTime.Now.Year - Michael's Music</p>
         </footer>
     </div>
 
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
-    @RenderSection("scripts", required: false)
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/bundles/foundation")
+@Scripts.Render("~/bundles/app")
+@RenderSection("scripts", required: false)
 </body>
 </html>
