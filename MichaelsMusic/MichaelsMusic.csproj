@@ -190,13 +190,13 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\app.js" />
-    <Content Include="Content\app.less" />
     <None Include="compilerconfig.json" />
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
-    <Content Include="Content\variables.d.less" />
-    <Content Include="Content\Core\section.less" />
+    <Content Include="Content\Core\section.scss" />
+    <Content Include="Content\variables.d.scss" />
+    <Content Include="Content\app.scss" />
     <None Include="Scripts\vendor\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\vendor\jquery-1.10.2.js" />
     <Content Include="Scripts\vendor\jquery-1.10.2.min.js" />
