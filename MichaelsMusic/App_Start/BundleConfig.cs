@@ -24,7 +24,7 @@ namespace MichaelsMusic
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                 "~/Content/foundation.min.css",
-                "~/Content/app.css"));
+                "~/Content/app.min.css"));
         }
     }
 }

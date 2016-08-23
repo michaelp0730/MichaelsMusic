@@ -1,0 +1,28 @@
+﻿@import "../variables.d.scss";
+.section {
+    padding: $size3 0;
+
+    &.section-size1 {
+        padding: $size1 0;
+    }
+   
+    &.section-size2 {
+        padding: $size2 0;
+    }
+
+    &.section-size3 {
+        padding: $size3 0;
+    }
+
+    &.section-size4 {
+        padding: $size4 0;
+    }
+
+    &.section-size5 {
+        padding: $size5 0;
+    }
+
+    &.section-size6 {
+        padding: $size6 0;
+    }
+}
