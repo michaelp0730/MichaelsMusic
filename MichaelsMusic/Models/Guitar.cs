@@ -23,6 +23,7 @@
         public string MiddlePickup { get; set; }
         public string NeckFinish { get; set; }
         public string NeckJoint { get; set; }
+        public string NeckMaterial { get; set; }
         public string NeckPickup { get; set; }
         public string NeckShape { get; set; }
         public string Nut { get; set; }
