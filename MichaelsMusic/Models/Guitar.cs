@@ -13,6 +13,7 @@
         public string Bridge { get; set; }
         public string BridgePickup { get; set; }
         public string Capacitors { get; set; }
+        public string Controls { get; set; }
         public string Finish { get; set; }
         public string Fretboard { get; set; }
         public string Fretwire { get; set; }
