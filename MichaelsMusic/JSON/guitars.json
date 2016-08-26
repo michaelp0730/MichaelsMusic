@@ -1,0 +1,33 @@
+﻿[
+    {
+        "Slug": "mcnaught-vdc",
+        "DisplayName": "McNaught Vintage Double Cut",
+        "BrandName": "McNaught",
+        "ModelName": "Vintage Double Cut",
+        "Cost": "3600.00",
+        "ShortDescription": "Mahogany body and neck with carved top, 'All Access' heel, and 'SET-THRU' neck",
+        "Description": "McNaught_VDC_Description",
+        "BodyStyle": "Solidbody Carved Top Double Cut",
+        "CarvedTop": true,
+        "IsHardtail": true,
+        "Bridge": "Tone Pros Tune-O-Matic",
+        "NeckPickup": "Wagner Humbucker",
+        "BridgePickup": "Wagner Humbucker",
+        "ScaleLength": 24.75,
+        "Frets": 22,
+        "Fretboard": "Rosewood",
+        "Strings": 6,
+        "Controls": "Volume, Tone",
+        "Headstock": "McNaught Custom",
+        "InlayMaterial": "Mother Of Pearl",
+        "InlayShape": "Offset Block",
+        "Knobs": "Barrel",
+        "NeckJoint": "All-Access heel",
+        "Nut": "1 11/16\"",
+        "PickupSelector": "3 way",
+        "Tuners": "Sperzel locking",
+        "Links": [
+            "http://mcnaughtcustomguitars.com/vintage-double-cut/"
+        ]
+    }
+]

@@ -2,6 +2,7 @@
 {
     public class Guitar : Item
     {
+        public bool CarvedTop { get; set; }
         public bool CoilTap { get; set; }
         public bool IsHardtail { get; set; }
         public bool IsTopJack { get; set; }

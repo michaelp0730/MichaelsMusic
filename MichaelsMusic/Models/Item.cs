@@ -16,7 +16,7 @@ namespace MichaelsMusic.Models
         public Link[] VideoLinks { get; set; }
         public string ArtistName { get; set; }
         public string BrandName { get; set; }
-        public string Description { get; set; }
+        public IHtmlString Description { get; set; }
         public string DisplayName { get; set; }
         public string ModelName { get; set; }
         public string ShortDescription { get; set; }
