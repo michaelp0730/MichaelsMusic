@@ -1,8 +1,23 @@
-﻿@model MichaelsMusic.Models.Guitar
+﻿@model MichaelsMusic.Models.GuitarCollection
 @{
-    ViewBag.Title = "index - heading";
+    ViewBag.Title = "Guitars";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>guitars index page</h2>
-
+<section class="section">
+    <div class="row column">
+        <h2>Guitars</h2>
+    </div>
+    <div class="row column">
+        <ul>
+            @foreach (var guitar in Model.Guitars)
+            {
+                <li>
+                    <img src=@($"/images/guitars/{guitar.Thumbnail}") alt=""/>
+                    <h5>@guitar.DisplayName</h5>
+                    <p>@guitar.ShortDescription</p>
+                </li>
+            }
+        </ul>
+    </div>
+</section>

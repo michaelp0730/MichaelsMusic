@@ -18,7 +18,10 @@ namespace MichaelsMusic.Controllers
                 guitars = JsonConvert.DeserializeObject<List<Guitar>>(sr.ReadToEnd());
             }
 
-            return View();
+            return View(new GuitarCollection
+            {
+                Guitars = guitars.ToArray()
+            });
         }
     }
 }

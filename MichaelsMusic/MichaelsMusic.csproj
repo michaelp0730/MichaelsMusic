@@ -172,6 +172,7 @@
     </Compile>
     <Compile Include="Models\Amp.cs" />
     <Compile Include="Models\Guitar.cs" />
+    <Compile Include="Models\GuitarCollection.cs" />
     <Compile Include="Models\Item.cs" />
     <Compile Include="Models\Link.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
