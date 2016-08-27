@@ -193,6 +193,15 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="images\guitars\mcnaught\mcnaught-vdc-1.jpg" />
+    <Content Include="images\guitars\mcnaught\mcnaught-vdc-2.jpg" />
+    <Content Include="images\guitars\mcnaught\mcnaught-vdc-3.jpg" />
+    <Content Include="images\guitars\mcnaught\mcnaught-vdc-4.jpg" />
+    <Content Include="images\guitars\mcnaught\mcnaught-vdc-5.jpg" />
+    <Content Include="images\guitars\mcnaught\mcnaught-vdc-6.jpg" />
+    <Content Include="images\guitars\mcnaught\mcnaught-vdc-7.jpg" />
+    <Content Include="images\guitars\mcnaught\mcnaught-vdc-8.jpg" />
+    <Content Include="images\guitars\mcnaught\mcnaught-vdc-thumb.jpg" />
     <Content Include="Scripts\app.js" />
     <None Include="compilerconfig.json" />
     <None Include="compilerconfig.json.defaults">

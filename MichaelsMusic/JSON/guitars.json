@@ -1,10 +1,10 @@
-﻿[
+[
     {
         "Slug": "mcnaught-vdc",
         "DisplayName": "McNaught Vintage Double Cut",
         "BrandName": "McNaught",
         "ModelName": "Vintage Double Cut",
-        "Cost": "3600.00",
+        "Cost": "$3,600 - $4,800",
         "ShortDescription": "Mahogany body and neck with carved top, 'All Access' heel, and 'SET-THRU' neck",
         "Description": "McNaught_VDC_Description",
         "BodyStyle": "Solidbody Carved Top Double Cut",
@@ -26,6 +26,18 @@
         "Nut": "1 11/16\"",
         "PickupSelector": "3 way",
         "Tuners": "Sperzel locking",
+        "FeaturedImage": "/mcnaught/mcnaught-vdc-7.jpg",
+        "Thumbnail": "/mcnaught/mcnaught-vdc-thumb.jpg",
+        "Images": [
+            "/mcnaught/mcnaught-vdc-1.jpg",
+            "/mcnaught/mcnaught-vdc-2.jpg",
+            "/mcnaught/mcnaught-vdc-3.jpg",
+            "/mcnaught/mcnaught-vdc-4.jpg",
+            "/mcnaught/mcnaught-vdc-5.jpg",
+            "/mcnaught/mcnaught-vdc-6.jpg",
+            "/mcnaught/mcnaught-vdc-7.jpg",
+            "/mcnaught/mcnaught-vdc-8.jpg"
+        ],
         "Links": [
             "http://mcnaughtcustomguitars.com/vintage-double-cut/"
         ]

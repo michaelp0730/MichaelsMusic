@@ -1,4 +1,4 @@
-﻿using System.Web;
+using System.Web;
 
 namespace MichaelsMusic.Models
 {
@@ -7,7 +7,6 @@ namespace MichaelsMusic.Models
         // TODO: Create enum for type property (ex: Guitar, Amp, Pedal)
         public bool IsMine { get; set; }
         public bool WasMine { get; set; }
-        public decimal Cost { get; set; }
         public IHtmlString FeaturedImage { get; set; }
         public IHtmlString[] Images { get; set; }
         public IHtmlString Thumbnail { get; set; }
@@ -17,6 +16,7 @@ namespace MichaelsMusic.Models
         public string ArtistName { get; set; }
         public string BrandName { get; set; }
         public IHtmlString Description { get; set; }
+        public string Cost { get; set; }
         public string DisplayName { get; set; }
         public string ModelName { get; set; }
         public string ShortDescription { get; set; }
