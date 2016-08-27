@@ -26,7 +26,7 @@
         "InlayShape": "Offset Block",
         "Knobs": "Barrel",
         "Nut": "1 11/16\"",
-        "PickupSelector": "3 way",
+        "PickupSelector": "3-way switch",
         "Tuners": "Sperzel locking",
         "FeaturedImage": "/mcnaught/mcnaught-vdc-7.jpg",
         "Thumbnail": "/mcnaught/mcnaught-vdc-thumb.jpg",
@@ -96,6 +96,65 @@
             {
                 "Text": "PRS official Custom 24 page",
                 "Url": "http://www.prsguitars.com/custom24/"
+            }
+        ]
+    },
+    {
+        "Slug": "collings-cl-deluxe",
+        "DisplayName": "Collings CL Deluxe",
+        "BrandName": "Collings",
+        "ModelName": "CL Deluxe",
+        "Cost": "$3,500 - $6,000",
+        "ShortDescription": "Crafted with the finest seasoned maple and Honduran mahogany, the CL Deluxe is built for tone.",
+        "Description": "Collings_CL_Deluxe_Description",
+        "CarvedTop": false,
+        "BodyStyle": "Solidbody Single Cut",
+        "BodyMaterial": "Mahogany",
+        "NeckMaterial": "Mahogany",
+        "NeckShape": "C Shape",
+        "NeckJoint": "Extra long mortise & tenon",
+        "NeckFinish": "High gloss nitrocellulose",
+        "Finish": "High gloss nitrocellulose",
+        "FingerboardRadius": 12,
+        "IsHardtail": true,
+        "Bridge": "TonePros ARV-II",
+        "NeckPickup": "Lollar Std Wind Imperial Humbucker",
+        "BridgePickup": "Lollar Std Wind Imperial Humbucker",
+        "ScaleLength": 24.875,
+        "Frets": 22,
+        "Fretboard": "Rosewood",
+        "Fretwire": "Medium 18% nickel-silver",
+        "Strings": 6,
+        "Controls": "2 volume, 2 tone",
+        "Headstock": "Haircut",
+        "InlayMaterial": "Mother Of Pearl",
+        "InlayShape": "Parallelogram",
+        "Knobs": "Custom ivoroid 'top hat' knobs ",
+        "Nut": "1 11/16\"",
+        "PickupSelector": "3-way switch",
+        "Capacitors": "CTS 500K/ Jupiter Vintage Yellow",
+        "CoilTap": false,
+        "Tuners": "Chrome Gotoh w/ Collings logo",
+        "FeaturedImage": "/collings/collings-cl-deluxe-2.jpg",
+        "Thumbnail": "/collings/collings-cl-deluxe-thumb.jpg",
+        "Images": [
+            "/collings/collings-cl-deluxe-1.jpg",
+            "/collings/collings-cl-deluxe-2.jpg",
+            "/collings/collings-cl-deluxe-3.jpg",
+            "/collings/collings-cl-deluxe-4.jpg",
+            "/collings/collings-cl-deluxe-5.jpg",
+            "/collings/collings-cl-deluxe-6.jpg",
+            "/collings/collings-cl-deluxe-7.jpg",
+            "/collings/collings-cl-deluxe-8.jpg",
+            "/collings/collings-cl-deluxe-9.jpg",
+            "/collings/collings-cl-deluxe-10.jpg",
+            "/collings/collings-cl-deluxe-11.jpg",
+            "/collings/collings-cl-deluxe-12.jpg"
+        ],
+        "Links": [
+            {
+                "Text": "Collings official CL Deluxe page",
+                "Url": "http://www.collingsguitars.com/electric-guitars/cl-deluxe/"
             }
         ]
     }

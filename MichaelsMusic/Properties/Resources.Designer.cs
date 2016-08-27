@@ -61,6 +61,17 @@ namespace MichaelsMusic.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to &lt;p&gt;Crafted with the finest seasoned maple and Honduran mahogany, the CL Deluxe is built for tone. Lightweight, resonant mahogany combined with a carefully hand-set mortise and tenon neck joint bring tonal complexity and sustain to the table in spades. The CL Deluxe features ivoroid neck and peghead binding and our custom ivoroid &quot;top hat&quot; knobs and pickup rings. Sleekly contoured for comfort and style, we&apos;ve brought new life to an American classic.&lt;/p&gt;
+        ///&lt;h3&gt;Premium Tonewoods&lt;/h3&gt;
+        ///&lt;p&gt;Each Collings Deluxe el [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Collings_CL_Deluxe_Description {
+            get {
+                return ResourceManager.GetString("Collings_CL_Deluxe_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to &lt;p&gt;The McNaught Vintage Double Cut is a Mahogany solid body carved top guitar with a Mahogany &apos;SET-THRU&apos; neck and &apos;All-Access&apos; heel. It features a flame Maple bound Indian Rosewood fingerboard with 12\&quot; radius, 22 frets, 24 3/4\&quot; compensated scale length, Mother Of Pearl &apos;Offset Block&apos; inlays, Tone Pros Tune-O-Matic bridge, Sperzel locking tuners, Wagner Dual humbuckers, 1 11/16\&quot; nut, matching wood cavity covers, and a standard form-fitted case.&lt;/p&gt;
         ///&lt;p&gt;Available custom upgrades include:&lt;/p&gt;
         ///&lt;ul&gt;

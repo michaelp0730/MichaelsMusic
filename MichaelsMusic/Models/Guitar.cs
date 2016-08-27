@@ -7,6 +7,7 @@ namespace MichaelsMusic.Models
         public bool IsHardtail { get; set; }
         public bool IsTopJack { get; set; }
         public decimal ScaleLength { get; set; }
+        public int FingerboardRadius { get; set; }
         public int Frets { get; set; }
         public int Strings { get; set; }
         public string Binding { get; set; }
