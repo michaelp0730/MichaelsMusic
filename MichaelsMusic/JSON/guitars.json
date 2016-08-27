@@ -115,6 +115,7 @@
         "NeckJoint": "Extra long mortise & tenon",
         "NeckFinish": "High gloss nitrocellulose",
         "Finish": "High gloss nitrocellulose",
+        "Binding": "Grained ivoroid",
         "FingerboardRadius": 12,
         "IsHardtail": true,
         "Bridge": "TonePros ARV-II",

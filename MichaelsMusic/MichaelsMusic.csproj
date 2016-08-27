@@ -232,7 +232,9 @@
     <Content Include="Content\Core\section.scss" />
     <Content Include="Content\variables.d.scss" />
     <Content Include="Content\app.scss" />
-    <Content Include="JSON\guitars.json" />
+    <Content Include="JSON\guitars.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <None Include="Scripts\vendor\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\vendor\jquery-1.10.2.js" />
     <Content Include="Scripts\vendor\jquery-1.10.2.min.js" />
