@@ -1,4 +1,4 @@
-﻿namespace MichaelsMusic.Models
+namespace MichaelsMusic.Models
 {
     public class Guitar : Item
     {
@@ -10,6 +10,7 @@
         public int Frets { get; set; }
         public int Strings { get; set; }
         public string Binding { get; set; }
+        public string BodyMaterial { get; set; }
         public string BodyStyle { get; set; }
         public string Bridge { get; set; }
         public string BridgePickup { get; set; }

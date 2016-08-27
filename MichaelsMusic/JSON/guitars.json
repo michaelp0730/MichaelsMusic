@@ -7,8 +7,11 @@
         "Cost": "$3,600 - $4,800",
         "ShortDescription": "Mahogany body and neck with carved top, 'All Access' heel, and 'SET-THRU' neck",
         "Description": "McNaught_VDC_Description",
-        "BodyStyle": "Solidbody Carved Top Double Cut",
         "CarvedTop": true,
+        "BodyStyle": "Solidbody Carved Top Double Cut",
+        "BodyMaterial": "Mahogany",
+        "NeckMaterial": "Mahogany",
+        "NeckJoint": "All-Access heel",
         "IsHardtail": true,
         "Bridge": "Tone Pros Tune-O-Matic",
         "NeckPickup": "Wagner Humbucker",
@@ -22,7 +25,6 @@
         "InlayMaterial": "Mother Of Pearl",
         "InlayShape": "Offset Block",
         "Knobs": "Barrel",
-        "NeckJoint": "All-Access heel",
         "Nut": "1 11/16\"",
         "PickupSelector": "3 way",
         "Tuners": "Sperzel locking",
@@ -39,7 +41,62 @@
             "/mcnaught/mcnaught-vdc-8.jpg"
         ],
         "Links": [
-            "http://mcnaughtcustomguitars.com/vintage-double-cut/"
+            {
+                "Text": "McNaught official VDC page",
+                "Url": "http://mcnaughtcustomguitars.com/vintage-double-cut/"
+            }
+        ]
+    },
+    {
+        "Slug": "prs-custom24",
+        "DisplayName": "Paul Reed Smith Custom 24",
+        "BrandName": "Paul Reed Smith",
+        "ModelName": "Custom 24",
+        "Cost": "$3,000 - $5,000",
+        "ShortDescription": "The Custom 24 is the quintessential PRS guitar. It is the original PRS.",
+        "Description": "PRS_Custom24_Description",
+        "CarvedTop": true,
+        "BodyStyle": "Solidbody Carved Top Double Cut",
+        "BodyMaterial": "Mahogany",
+        "NeckMaterial": "Mahogany",
+        "NeckShape": "Pattern-Regular or Pattern-Thin",
+        "NeckJoint": "Set neck",
+        "IsHardtail": false,
+        "Bridge": "PRS Tremolo",
+        "NeckPickup": "85/15 Bass",
+        "BridgePickup": "85/15 Treble",
+        "ScaleLength": 25,
+        "Frets": 24,
+        "Fretboard": "Rosewood",
+        "Fretwire": "Nickle Silver",
+        "Strings": 6,
+        "Controls": "Volume and Tone Control with 5-Way Blade Switch",
+        "Headstock": "PRS Custom",
+        "InlayMaterial": "Mother Of Pearl",
+        "InlayShape": "Birds",
+        "Knobs": "Barrel",
+        "Nut": "Compensated, hand-filed",
+        "PickupSelector": "5-way blade switch",
+        "CoilTap": true,
+        "Tuners": "PRS Phase III",
+        "FeaturedImage": "/prs/prs-custom24-7.jpg",
+        "Thumbnail": "/prs/prs-custom24-thumb.jpg",
+        "Images": [
+            "/prs/prs-custom24-1.jpg",
+            "/prs/prs-custom24-2.jpg",
+            "/prs/prs-custom24-3.jpg",
+            "/prs/prs-custom24-4.jpg",
+            "/prs/prs-custom24-5.jpg",
+            "/prs/prs-custom24-6.jpg",
+            "/prs/prs-custom24-7.jpg",
+            "/prs/prs-custom24-8.jpg",
+            "/prs/prs-custom24-9.png",
+        ],
+        "Links": [
+            {
+                "Text": "PRS official Custom 24 page",
+                "Url": "http://www.prsguitars.com/custom24/"
+            }
         ]
     }
 ]

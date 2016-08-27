@@ -71,5 +71,14 @@ namespace MichaelsMusic.Properties {
                 return ResourceManager.GetString("McNaught_VDC_Description", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;p&gt;The Custom 24 is the quintessential PRS guitar. This iconic instrument was the first model that Paul Reed Smith brought to the public at PRS Guitars’ first Winter NAMM show in 1985 and has been a top seller ever since. Played by internationally touring artists, gigging musicians, and aspiring players, the Custom 24 features PRS’s patented tremolo system and PRS 85/15 treble and bass pickups with volume and tone controls and a 5-way blade switch. 85/15 pickups were personally designed by Paul Reed Smith f [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string PRS_Custom24_Description {
+            get {
+                return ResourceManager.GetString("PRS_Custom24_Description", resourceCulture);
+            }
+        }
     }
 }
