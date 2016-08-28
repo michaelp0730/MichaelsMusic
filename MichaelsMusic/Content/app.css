@@ -1107,18 +1107,27 @@ a {
 
 .section {
   padding: 36px 10px; }
+  .section.section-size0 {
+    padding-top: 0;
+    padding-bottom: 0; }
   .section.section-size1 {
-    padding: 12px 0; }
+    padding-top: 12px;
+    padding-bottom: 12px; }
   .section.section-size2 {
-    padding: 24px 0; }
+    padding-top: 24px;
+    padding-bottom: 24px; }
   .section.section-size3 {
-    padding: 36px 0; }
+    padding-top: 36px;
+    padding-bottom: 36px; }
   .section.section-size4 {
-    padding: 48px 0; }
+    padding-top: 48px;
+    padding-bottom: 48px; }
   .section.section-size5 {
-    padding: 60px 0; }
+    padding-top: 60px;
+    padding-bottom: 60px; }
   .section.section-size6 {
-    padding: 72px 0; }
+    padding-top: 72px;
+    padding-bottom: 72px; }
 
 .main-header {
   background: #111111;
@@ -1140,6 +1149,10 @@ a {
           .main-header .menu li.mobile-expand a:hover {
             color: #FFFFFF;
             text-decoration: none; }
+      .main-header .menu li.has-submenu {
+        margin-top: 10px; }
+        .main-header .menu li.has-submenu .submenu {
+          margin-top: 0; }
   .main-header a:hover {
     text-decoration: none; }
 
@@ -1159,7 +1172,8 @@ a {
         border-right: 1px solid #7FDBFF;
         padding-right: 2em; }
       .main-header .menu li.has-submenu {
-        position: relative; }
+        position: relative;
+        margin-top: 0; }
         .main-header .menu li.has-submenu a:after {
           content: '';
           width: 0;
