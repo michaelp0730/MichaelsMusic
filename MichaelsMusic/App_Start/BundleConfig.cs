@@ -20,7 +20,8 @@ namespace MichaelsMusic
                 "~/Scripts/app.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                "~/Content/app.min.css"));
+                "~/Content/app.min.css",
+                "~/Content/font-awesome.min.css"));
         }
     }
 }
