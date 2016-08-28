@@ -1106,7 +1106,7 @@ a {
   stroke: #111111; }
 
 .section {
-  padding: 36px 0; }
+  padding: 36px 10px; }
   .section.section-size1 {
     padding: 12px 0; }
   .section.section-size2 {

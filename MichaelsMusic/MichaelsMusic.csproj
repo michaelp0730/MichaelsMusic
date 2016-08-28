@@ -226,7 +226,6 @@
     <Content Include="images\guitars\prs\prs-custom24-8.jpg" />
     <Content Include="images\guitars\prs\prs-custom24-9.png" />
     <Content Include="images\guitars\prs\prs-custom24-thumb.jpg" />
-    <Content Include="Scripts\app.js" />
     <None Include="compilerconfig.json" />
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
@@ -249,6 +248,7 @@
     <Content Include="fonts\FontAwesome.otf" />
     <Content Include="Content\Patterns\header.scss" />
     <None Include="Scripts\vendor\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\header.js" />
     <Content Include="Scripts\vendor\jquery-1.10.2.js" />
     <Content Include="Scripts\vendor\jquery-1.10.2.min.js" />
     <None Include="Scripts\vendor\jquery.validate-vsdoc.js" />
