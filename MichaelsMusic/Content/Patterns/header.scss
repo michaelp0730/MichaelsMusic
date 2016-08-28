@@ -1,0 +1,102 @@
+﻿@import '../variables.d.scss';
+
+.main-header {
+    background: $black;
+    color: $white;
+
+    .menu {
+        list-style: none;
+        margin: 0;
+        padding: 10px 10px 0;
+
+        li {
+            display: none;
+
+            &.branding {
+                display: inline;
+                width: 80%;
+            }
+
+            &.mobile-expand {
+                display: inline;
+                float: right;
+
+                a {
+                    color: $white;
+
+                    &:hover {
+                        color: $white;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+
+    a {
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+
+/*
+ * Media Queries
+ */
+
+/* Medium and up */
+@media screen and (min-width: $mediumScreenMinWidth) {
+    .main-header {
+        .menu {
+            padding: 12px 15px 15px;
+
+            li {
+                display: inline;
+                float: left;
+                margin-right: 2em;
+
+                &.branding {
+                    width: auto;
+                    border-right: 1px solid $aqua;
+                    padding-right: 2em;
+                }
+
+                &.has-submenu {
+                    position: relative;
+
+                    a {
+                        &:after {
+                            content: '';
+                            width: 0; 
+                            height: 0; 
+                            border-left: 5px solid transparent;
+                            border-right: 5px solid transparent;
+                            border-top: 5px solid #1eaedb;
+                            position: absolute;
+                            top: 8px;
+                            right: -15px;
+                        }
+                    }
+
+                    .submenu {
+                        display: none;
+                    }
+                }
+
+                &.mobile-expand {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+/* Large and up */
+@media screen and (min-width: $largeScreenMinWidth) {
+
+}
+
+/* X-Large */
+@media screen and (min-width: $xLargeScreenMinWidth) {
+
+}

@@ -14,19 +14,18 @@ body {
     line-height: 1.375;
     box-sizing: border-box;
     margin: 0;
-    padding: 10px;
+    padding: 0;
 }
 
 a {
-    color: $blue;
     text-decoration: none;
 
     &:hover {
-        color: darken($blue, 15%);
         text-decoration: underline;
     }
 }
 
 @import 'Core/colors.scss';
 @import 'Core/section.scss';
+@import 'Patterns/header.scss';
 @import 'Patterns/collection.scss';

@@ -1,23 +1,23 @@
-<header>
+<header class="main-header">
     <div class="row">
-        <div class="three columns">
-            @Html.ActionLink("Michael's Music", "Index", "Home", new {area = ""}, new {@class = "navbar-brand"})
-        </div>
-        <div class="six columns">
-            <ul class="dropdown-menu">
+        <div class="column">
+            <ul class="menu">
+                <li class="branding">@Html.ActionLink("Michael's Music", "Index", "Home")</li>
                 <li class="has-submenu">
                     <a href="#">Guitars</a>
-                    <ul class="submenu menu vertical" data-submenu>
+                    <ul class="submenu" data-submenu>
                         <li><a href="#">All Guitars</a></li>
                         <li><a href="#">My Guitars</a></li>
                     </ul>
                 </li>
-            </ul>
-        </div>
-        <div class="three columns">
-            <ul class="menu">
-                <li><input type="search" placeholder="Search"></li>
-                <li><button type="button" class="button">Search</button></li>
+                <li>
+                    @Html.ActionLink("About", "About", "Home")
+                </li>
+                <li class="mobile-expand">
+                    <a href="#">
+                        <i class="fa fa-align-justify"></i>
+                    </a>
+                </li>
             </ul>
         </div>
     </div>
