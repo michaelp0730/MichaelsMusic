@@ -1,0 +1,22 @@
+﻿@import '../variables.d.scss';
+
+
+
+/*
+ * Media Queries
+ */
+
+/* Medium only */
+@media screen and (min-width: $mediumScreenMinWidth) and (max-width: $mediumScreenMaxWidth) {
+
+}
+
+/* Large only */
+@media screen and (min-width: $largeScreenMinWidth) and (max-width: $largeScreenMaxWidth) {
+
+}
+
+/* X-Large */
+@media screen and (min-width: $xLargeScreenMinWidth) {
+
+}

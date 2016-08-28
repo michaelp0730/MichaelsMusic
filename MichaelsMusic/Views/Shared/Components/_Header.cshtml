@@ -1,11 +1,10 @@
-﻿<!-- Start Top Bar -->
-<div class="top-bar">
+<header>
     <div class="row">
-        <div class="top-bar-left">
-            <ul class="dropdown menu" data-dropdown-menu>
-                <li class="menu-text">
-                    @Html.ActionLink("Michael's Music", "Index", "Home", new {area = ""}, new {@class = "navbar-brand"})
-                </li>
+        <div class="three columns">
+            @Html.ActionLink("Michael's Music", "Index", "Home", new {area = ""}, new {@class = "navbar-brand"})
+        </div>
+        <div class="six columns">
+            <ul class="dropdown-menu">
                 <li class="has-submenu">
                     <a href="#">Guitars</a>
                     <ul class="submenu menu vertical" data-submenu>
@@ -13,29 +12,13 @@
                         <li><a href="#">My Guitars</a></li>
                     </ul>
                 </li>
-                <li class="has-submenu">
-                    <a href="#">Amps</a>
-                    <ul class="submenu menu vertical" data-submenu>
-                        <li><a href="#">All Amps</a></li>
-                        <li><a href="#">My Amps</a></li>
-                    </ul>
-                </li>
-                <li class="has-submenu">
-                    <a href="#">Pedals</a>
-                    <ul class="submenu menu vertical" data-submenu>
-                        <li><a href="#">All Pedals</a></li>
-                        <li><a href="#">My Pedals</a></li>
-                    </ul>
-                </li>
-                <li>@Html.ActionLink("About", "About", "Home")</li>
             </ul>
         </div>
-        <div class="top-bar-right">
+        <div class="three columns">
             <ul class="menu">
                 <li><input type="search" placeholder="Search"></li>
                 <li><button type="button" class="button">Search</button></li>
             </ul>
         </div>
     </div>
-</div>
-<!-- End Top Bar -->
+</header>

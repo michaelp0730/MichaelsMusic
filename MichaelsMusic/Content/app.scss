@@ -1,1 +1,32 @@
-﻿@import 'Core/section.scss';
+﻿@import 'variables.d.scss';
+@import 'Core/normalize.scss';
+@import 'Core/skeleton.scss';
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $fontFamily;
+    font-weight: 400;
+    font-size: 16px;
+    color: $black;
+    line-height: 1.375;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10px;
+}
+
+a {
+    color: $blue;
+    text-decoration: none;
+
+    &:hover {
+        color: darken($blue, 15%);
+        text-decoration: underline;
+    }
+}
+
+@import 'Core/colors.scss';
+@import 'Core/section.scss';
+@import 'Patterns/collection.scss';

@@ -5,19 +5,23 @@
 }
 
 <section class="section">
-    <div class="row column">
-        <h2>Guitars</h2>
+    <div class="row">
+        <div class="twelve columns">
+            <h2>Guitars</h2>
+        </div>
     </div>
-    <div class="row column">
-        <ul>
-            @foreach (var guitar in Model.Guitars)
-            {
-                <li>
-                    <img src=@($"/images/guitars/{guitar.Thumbnail}") alt=""/>
-                    <h5>@guitar.DisplayName</h5>
-                    <p>@guitar.ShortDescription</p>
-                </li>
-            }
-        </ul>
+    <div class="row">
+        <div class="twelve columns">
+             <ul class="item-collection">
+                @foreach (var guitar in Model.Guitars)
+                {
+                    <li>
+                        <img src=@($"/images/guitars/{guitar.Thumbnail}") alt=""/>
+                        <h5>@guitar.DisplayName</h5>
+                        <p>@guitar.ShortDescription</p>
+                    </li>
+                }
+            </ul>   
+        </div>
     </div>
 </section>

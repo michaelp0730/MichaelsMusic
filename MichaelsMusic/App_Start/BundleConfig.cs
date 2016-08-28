@@ -16,14 +16,10 @@ namespace MichaelsMusic
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
                 "~/Scripts/vendor/modernizr-*"));
 
-            bundles.Add(new ScriptBundle("~/bundles/foundation").Include(
-                "~/Scripts/vendor/foundation.min.js"));
-
             bundles.Add(new ScriptBundle("~/bundles/app").Include(
                 "~/Scripts/app.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                "~/Content/foundation.min.css",
                 "~/Content/app.min.css"));
         }
     }
