@@ -1,6 +1,29 @@
 ﻿@import '../variables.d.scss';
 
+.item-collection {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 
+    li {
+        border-bottom: 1px solid $gray;
+        margin-bottom: $size2;
+        padding-bottom: $size1;
+
+        &:last-child {
+            border: none;
+        }
+
+        p {
+            margin-bottom: 0.33em;
+        }
+    }
+
+    .title {
+        font-size: 1.125em;
+        font-weight: bold;
+    }
+}
 
 /*
  * Media Queries

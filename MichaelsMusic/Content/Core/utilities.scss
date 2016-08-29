@@ -1,0 +1,11 @@
+﻿@import '../variables.d.scss';
+
+img.pull-left {
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+img.pull-right {
+    float: right;
+    margin: 0 0 10px 10px;
+}

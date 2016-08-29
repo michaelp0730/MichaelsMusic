@@ -25,7 +25,12 @@ a {
     }
 }
 
+@import 'Core/utilities.scss';
 @import 'Core/colors.scss';
 @import 'Core/section.scss';
 @import 'Patterns/header.scss';
 @import 'Patterns/collection.scss';
+
+.main-footer {
+    padding: 0 10px;
+}

@@ -11,14 +11,21 @@
         </div>
     </div>
     <div class="row">
-        <div class="twelve columns">
+        <div class="column">
              <ul class="item-collection">
                 @foreach (var guitar in Model.Guitars)
                 {
                     <li>
-                        <img src=@($"/images/guitars/{guitar.Thumbnail}") alt=""/>
-                        <h5>@guitar.DisplayName</h5>
+                        <p class="title">
+                            <a href="@($"/guitars/{guitar.Slug}/")">@guitar.DisplayName</a>
+                        </p>
+                        <a href="@($"/guitars/{guitar.Slug}/")">
+                            <img src=@($"/images/guitars/{guitar.Thumbnail}") alt="" class="pull-right" />
+                        </a>
                         <p>@guitar.ShortDescription</p>
+                        <p>
+                            <a href="@($"/guitars/{guitar.Slug}/")">Learn more &raquo;</a>
+                        </p>
                     </li>
                 }
             </ul>
