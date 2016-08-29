@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - Michael's Music</title>
     @Styles.Render("~/Content/css")
-
+    <meta name="description" content="@ViewBag.Description">
+    <meta name="keywords" content="@ViewBag.Keywords">
 </head>
 <body>
     @Html.Partial("Components/_Header")
     @RenderBody()
-    @Html.Partial("Components/_Footer")    
+    @Html.Partial("Components/_Footer")
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/app")
