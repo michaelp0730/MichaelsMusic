@@ -17,6 +17,11 @@
         p {
             margin-bottom: 0.33em;
         }
+
+        img {
+            float: right;
+            margin: 0 0 7px 7px;
+        }
     }
 
     .title {
@@ -36,15 +41,22 @@
             display: inline-block;
             float: left;
             width: 25%;
-            min-height: 225px;
+            min-height: 295px;
             margin: 0 2% 20px 0;
             padding: 20px;
             border: 1px solid $gray;
             border-radius: 6px;
+            text-align: center;
 
             &:last-child {
                 margin-right: 0;
                 border: 1px solid $gray;
+            }
+
+            img {
+                float: none;
+                display: block;
+                margin: 15px auto;
             }
         }
     }

@@ -1211,6 +1211,9 @@ img.pull-right {
       border: none; }
     .item-collection li p {
       margin-bottom: 0.33em; }
+    .item-collection li img {
+      float: right;
+      margin: 0 0 7px 7px; }
   .item-collection .title {
     font-size: 1.125em;
     font-weight: bold; }
@@ -1224,14 +1227,19 @@ img.pull-right {
     display: inline-block;
     float: left;
     width: 25%;
-    min-height: 225px;
+    min-height: 295px;
     margin: 0 2% 20px 0;
     padding: 20px;
     border: 1px solid #AAAAAA;
-    border-radius: 6px; }
+    border-radius: 6px;
+    text-align: center; }
     .item-collection li:last-child {
       margin-right: 0;
-      border: 1px solid #AAAAAA; } }
+      border: 1px solid #AAAAAA; }
+    .item-collection li img {
+      float: none;
+      display: block;
+      margin: 15px auto; } }
 
 /* Large only */
 /* X-Large */
