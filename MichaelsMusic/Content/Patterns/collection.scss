@@ -30,8 +30,24 @@
  */
 
 /* Medium only */
-@media screen and (min-width: $mediumScreenMinWidth) and (max-width: $mediumScreenMaxWidth) {
+@media screen and (min-width: $mediumScreenMinWidth) {
+    .item-collection {
+        li {
+            display: inline-block;
+            float: left;
+            width: 25%;
+            min-height: 225px;
+            margin: 0 2% 20px 0;
+            padding: 20px;
+            border: 1px solid $gray;
+            border-radius: 6px;
 
+            &:last-child {
+                margin-right: 0;
+                border: 1px solid $gray;
+            }
+        }
+    }
 }
 
 /* Large only */

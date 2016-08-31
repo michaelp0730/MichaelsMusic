@@ -61,6 +61,15 @@ namespace MichaelsMusic.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to &lt;p&gt;Some things are simply better in pairs. With a double-cutaway mahogany body and dual hand-wound P90 pickups from Jason Lollar, the 290 DC offers unhindered access to the upper frets and a wide range of tonal possibilities. From pristine clean tones with rich harmonic complexity to hard-hitting classic rock sounds, there are few bases the 290 DC cannot cover. To further the guitar&apos;s vintage-inspired tone and aesthetic, we&apos;ve made available our own custom wraparound tailpiece (optional) that&apos;s been designe [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Collings_290_DC_Description {
+            get {
+                return ResourceManager.GetString("Collings_290_DC_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to &lt;p&gt;Crafted with the finest seasoned maple and Honduran mahogany, the CL Deluxe is built for tone. Lightweight, resonant mahogany combined with a carefully hand-set mortise and tenon neck joint bring tonal complexity and sustain to the table in spades. The CL Deluxe features ivoroid neck and peghead binding and our custom ivoroid &quot;top hat&quot; knobs and pickup rings. Sleekly contoured for comfort and style, we&apos;ve brought new life to an American classic.&lt;/p&gt;
         ///&lt;h3&gt;Premium Tonewoods&lt;/h3&gt;
         ///&lt;p&gt;Each Collings Deluxe el [rest of string was truncated]&quot;;.
