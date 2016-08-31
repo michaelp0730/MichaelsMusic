@@ -63,8 +63,12 @@
 }
 
 /* Large only */
-@media screen and (min-width: $largeScreenMinWidth) and (max-width: $largeScreenMaxWidth) {
-
+@media screen and (min-width: $largeScreenMinWidth) {
+    .item-collection {
+        li {
+            width: 20%;
+        }
+    }
 }
 
 /* X-Large */
