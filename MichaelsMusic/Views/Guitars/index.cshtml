@@ -18,7 +18,7 @@
              <ul class="item-collection">
                 @foreach (var guitar in Model.Guitars)
                 {
-                    <li>
+                    <li class="clearfix">
                         <p class="title">
                             <a href="@($"/guitars/{guitar.Slug}/")">@guitar.DisplayName</a>
                         </p>

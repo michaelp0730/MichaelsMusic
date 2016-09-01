@@ -849,6 +849,41 @@ img.pull-right {
   float: right;
   margin: 0 0 7px 7px; }
 
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+* html .clearfix {
+  zoom: 1; }
+
+/* IE6 */
+*:first-child + html .clearfix {
+  zoom: 1; }
+
+/* IE7 */
+/* Group version */
+.group:before,
+.group:after {
+  content: "";
+  display: table; }
+
+.group:after {
+  clear: both; }
+
+.group {
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */ }
+
+/* Group for IE8+ */
+.group:after {
+  content: "";
+  display: table;
+  clear: both; }
+
 /* Backgrounds */
 .bg-navy {
   background-color: #001F3F; }
@@ -1227,9 +1262,8 @@ img.pull-right {
     display: inline-block;
     float: left;
     width: 25%;
-    min-height: 295px;
     margin: 0 2% 20px 0;
-    padding: 20px;
+    padding: 20px 20px 30px;
     border: 1px solid #AAAAAA;
     border-radius: 6px;
     text-align: center; }

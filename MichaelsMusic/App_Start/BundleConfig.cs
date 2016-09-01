@@ -17,7 +17,8 @@ namespace MichaelsMusic
                 "~/Scripts/vendor/modernizr-*"));
 
             bundles.Add(new ScriptBundle("~/bundles/app").Include(
-                "~/Scripts/header.js"));
+                "~/Scripts/header.js",
+                "~/Scripts/collection.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                 "~/Content/app.min.css",
