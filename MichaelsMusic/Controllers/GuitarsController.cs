@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Web.Mvc;
 using MichaelsMusic.Models;
 using Newtonsoft.Json;
@@ -20,7 +21,7 @@ namespace MichaelsMusic.Controllers
 
             return View(new GuitarCollection
             {
-                Guitars = guitars.ToArray()
+                Guitars = guitars.OrderBy(x => x.DisplayName).ToArray()
             });
         }
     }
