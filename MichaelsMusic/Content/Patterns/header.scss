@@ -55,18 +55,20 @@
 /* Medium and up */
 @media screen and (min-width: $mediumScreenMinWidth) {
     .main-header {
+        height: 44px;
+
         .menu {
             padding: 12px 15px 15px;
 
             li {
                 display: inline;
                 float: left;
-                margin-right: 2em;
+                margin-right: 3em;
 
                 &.branding {
                     width: auto;
                     border-right: 1px solid $aqua;
-                    padding-right: 2em;
+                    padding-right: 3em;
                 }
 
                 &.has-submenu {
@@ -89,6 +91,35 @@
 
                     .submenu {
                         display: none;
+                        width: 325%;
+                        background-color: $black;
+                        position: absolute;
+                        top: 32px;
+                        left: 0;
+                        margin: 0;
+                        padding-top: 10px;
+
+                        li {
+                            display: block;
+                            box-sizing: border-box;
+                            width: 80%;
+                            height: 30px;
+                            float: none;
+                            margin-left: 10%;
+                            padding: 0;
+                            border-bottom: 1px solid $gray;
+
+                            &:last-child {
+                                border: none;
+                                margin-bottom: 0;
+                            }
+
+                            a {
+                                &:after {
+                                    border: none;
+                                }
+                            }
+                        }
                     }
                 }
 
