@@ -1,4 +1,4 @@
-﻿(function(global, $) {
+﻿$(document).ready(function () {
     'use strict';
 
     var MEDIUM_BREAKPOINT = 640,
@@ -18,4 +18,4 @@
             $(this).css('height', maxHeight);
         });
     }
-})(window, jQuery);
+});

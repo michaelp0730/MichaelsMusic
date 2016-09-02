@@ -1,4 +1,4 @@
-(function(global, $) {
+$(document).ready(function () {
     'use strict';
 
     var $expandBtn = $('.mobile-expand > a'),
@@ -22,4 +22,13 @@
         $(this).next('.submenu').slideToggle(animationDefaults);
     });
 
-})(window, jQuery);
+    $('body').on('click', function () {
+        if ($('.submenu').is(':visible')) {
+            $('.submenu').hide();
+        }
+    });
+
+    $('.main-header').on('click', function (e) {
+        e.stopImmediatePropagation();
+    })
+});

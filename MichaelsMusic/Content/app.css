@@ -1279,7 +1279,7 @@ img.pull-right {
 /*
  * Media Queries
  */
-/* Medium only */
+/* Medium and up */
 @media screen and (min-width: 40em) {
   .item-collection li {
     display: inline-block;
@@ -1298,7 +1298,7 @@ img.pull-right {
       display: block;
       margin: 15px auto; } }
 
-/* Large only */
+/* Large and up */
 @media screen and (min-width: 64em) {
   .item-collection li {
     width: 20%; } }
