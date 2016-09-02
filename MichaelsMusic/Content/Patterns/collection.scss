@@ -34,7 +34,7 @@
  * Media Queries
  */
 
-/* Medium only */
+/* Medium and up */
 @media screen and (min-width: $mediumScreenMinWidth) {
     .item-collection {
         li {
@@ -61,7 +61,7 @@
     }
 }
 
-/* Large only */
+/* Large and up */
 @media screen and (min-width: $largeScreenMinWidth) {
     .item-collection {
         li {
