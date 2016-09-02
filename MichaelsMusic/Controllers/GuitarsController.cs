@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Threading.Tasks;
 using System.Web.Mvc;
 using MichaelsMusic.Models;
 using Newtonsoft.Json;
@@ -9,8 +10,18 @@ namespace MichaelsMusic.Controllers
 {
     public class GuitarsController : Controller
     {
-        // GET: Guitars
+        [Route("/guitars/")]
         public ActionResult Index()
+        {
+            var guitars = GetGuitars();
+
+            return View(new GuitarCollection
+            {
+                Guitars = guitars.OrderBy(x => x.DisplayName).ToArray()
+            });
+        }
+
+        private List<Guitar> GetGuitars()
         {
             var guitars = new List<Guitar>();
 
@@ -19,10 +30,7 @@ namespace MichaelsMusic.Controllers
                 guitars = JsonConvert.DeserializeObject<List<Guitar>>(sr.ReadToEnd());
             }
 
-            return View(new GuitarCollection
-            {
-                Guitars = guitars.OrderBy(x => x.DisplayName).ToArray()
-            });
+            return guitars;
         }
     }
 }

@@ -283,6 +283,7 @@
     <Content Include="Views\Shared\Components\_Header.cshtml" />
     <Content Include="Views\Shared\Components\_Footer.cshtml" />
     <Content Include="Views\Guitars\index.cshtml" />
+    <Content Include="Views\Guitars\_details.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
