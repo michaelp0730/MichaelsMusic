@@ -841,6 +841,9 @@ a {
   a:hover {
     text-decoration: underline; }
 
+img {
+  max-width: 100%; }
+
 img.pull-left {
   float: left;
   margin: 0 7px 7px 0; }
@@ -1171,6 +1174,21 @@ img.pull-right {
   .section.section-size6 {
     padding-top: 72px;
     padding-bottom: 72px; }
+
+.row {
+  padding: 0; }
+  .row.row-size1 {
+    padding: 12px 0; }
+  .row.row-size2 {
+    padding: 24px 0; }
+  .row.row-size3 {
+    padding: 36px 0; }
+  .row.row-size4 {
+    padding: 48px 0; }
+  .row.row-size5 {
+    padding: 60px 0; }
+  .row.row-size6 {
+    padding: 72px 0; }
 
 .main-header {
   background: #111111;

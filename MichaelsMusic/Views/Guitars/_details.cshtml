@@ -1,5 +1,5 @@
 ﻿@model MichaelsMusic.Models.Guitar
-
+@using Resources = MichaelsMusic.Properties.Resources
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
     ViewBag.Title = @Model.DisplayName;
@@ -9,9 +9,20 @@
 
 <section class="section section-size1">
     <div class="row">
-        <div class="nine columns">
-            <h1>Guitar detail page</h1>
+        <div class="columns">
             <h1>@Model.DisplayName</h1>
+            <h5><em>@Model.ShortDescription</em></h5>
+        </div>
+    </div>
+    <div class="row">
+        <div class="columns">
+            <img src="@($"/images/guitars/{Model.FeaturedImage}")" alt="@Model.DisplayName"/>
+        </div>
+    </div>
+    <div class="row row-size2">
+        <div class="columns">
+            @Html.Raw(Resources.ResourceManager.GetString(Model.Description))
+            <h5>Approx. cost: <em class="gray">@Model.Cost</em></h5>
         </div>
     </div>
 </section>

@@ -22,7 +22,7 @@ namespace MichaelsMusic.Properties {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources {
+    public class Resources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace MichaelsMusic.Properties {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("MichaelsMusic.Properties.Resources", typeof(Resources).Assembly);
@@ -51,7 +51,7 @@ namespace MichaelsMusic.Properties {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,7 +63,7 @@ namespace MichaelsMusic.Properties {
         /// <summary>
         ///   Looks up a localized string similar to &lt;p&gt;Some things are simply better in pairs. With a double-cutaway mahogany body and dual hand-wound P90 pickups from Jason Lollar, the 290 DC offers unhindered access to the upper frets and a wide range of tonal possibilities. From pristine clean tones with rich harmonic complexity to hard-hitting classic rock sounds, there are few bases the 290 DC cannot cover. To further the guitar&apos;s vintage-inspired tone and aesthetic, we&apos;ve made available our own custom wraparound tailpiece (optional) that&apos;s been designe [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string Collings_290_DC_Description {
+        public static string Collings_290_DC_Description {
             get {
                 return ResourceManager.GetString("Collings_290_DC_Description", resourceCulture);
             }
@@ -74,7 +74,7 @@ namespace MichaelsMusic.Properties {
         ///&lt;h3&gt;Premium Tonewoods&lt;/h3&gt;
         ///&lt;p&gt;Each Collings Deluxe el [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string Collings_CL_Deluxe_Description {
+        public static string Collings_CL_Deluxe_Description {
             get {
                 return ResourceManager.GetString("Collings_CL_Deluxe_Description", resourceCulture);
             }
@@ -86,7 +86,7 @@ namespace MichaelsMusic.Properties {
         ///&lt;ul&gt;
         ///    &lt;li [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string McNaught_VDC_Description {
+        public static string McNaught_VDC_Description {
             get {
                 return ResourceManager.GetString("McNaught_VDC_Description", resourceCulture);
             }
@@ -95,7 +95,7 @@ namespace MichaelsMusic.Properties {
         /// <summary>
         ///   Looks up a localized string similar to &lt;p&gt;The Custom 24 is the quintessential PRS guitar. This iconic instrument was the first model that Paul Reed Smith brought to the public at PRS Guitars’ first Winter NAMM show in 1985 and has been a top seller ever since. Played by internationally touring artists, gigging musicians, and aspiring players, the Custom 24 features PRS’s patented tremolo system and PRS 85/15 treble and bass pickups with volume and tone controls and a 5-way blade switch. 85/15 pickups were personally designed by Paul Reed Smith f [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string PRS_Custom24_Description {
+        public static string PRS_Custom24_Description {
             get {
                 return ResourceManager.GetString("PRS_Custom24_Description", resourceCulture);
             }

@@ -1,0 +1,29 @@
+﻿@import '../variables.d.scss';
+
+.row {
+    padding: 0;
+
+    &.row-size1 {
+        padding: $size1 0;
+    }
+
+    &.row-size2 {
+        padding: $size2 0;
+    }
+
+    &.row-size3 {
+        padding: $size3 0;
+    }
+
+    &.row-size4 {
+        padding: $size4 0;
+    }
+
+    &.row-size5 {
+        padding: $size5 0;
+    }
+
+    &.row-size6 {
+        padding: $size6 0;
+    }
+}

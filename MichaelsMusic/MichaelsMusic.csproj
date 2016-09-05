@@ -249,6 +249,8 @@
     <Content Include="fonts\FontAwesome.otf" />
     <Content Include="Content\Patterns\header.scss" />
     <Content Include="Content\Core\utilities.scss" />
+    <Content Include="Content\Patterns\details.scss" />
+    <Content Include="Content\Core\row.scss" />
     <None Include="Scripts\vendor\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\collection.js" />
     <Content Include="Scripts\header.js" />
@@ -296,7 +298,7 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
