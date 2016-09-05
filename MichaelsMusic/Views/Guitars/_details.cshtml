@@ -7,7 +7,7 @@
     ViewBag.Keywords = "";
 }
 
-<section class="section section-size1">
+<section class="section section-size2">
     <div class="row">
         <div class="columns">
             <h1>@Model.DisplayName</h1>
@@ -23,6 +23,45 @@
         <div class="columns">
             @Html.Raw(Resources.ResourceManager.GetString(Model.Description))
             <h5>Approx. cost: <em class="gray">@Model.Cost</em></h5>
+        </div>
+    </div>
+</section>
+
+<section class="section section-size2 bg-off-white">
+    <div class="row">
+        <div class="columns">
+            <h2 class="red">Features</h2>
+        </div>
+    </div>
+    <div class="row row-size2">
+        <div class="columns">
+            <div class="container bg-white group">
+                <h3>Body</h3>
+                <dl>
+                    @if (!string.IsNullOrEmpty(Model.BodyStyle))
+                    {
+                        <dt>Body Style:</dt>
+                        <dd>@Model.BodyStyle</dd>
+                    }
+                    @if (!string.IsNullOrEmpty(Model.BodyMaterial))
+                    {
+                        <dt>Body Material:</dt>
+                        <dd>@Model.BodyMaterial</dd>
+                    }
+                    <dt>Carved Top:</dt>
+                    <dd>@Model.CarvedTop.ToString()</dd>
+                    @if (!string.IsNullOrEmpty(Model.Binding))
+                    {
+                        <dt>Binding:</dt>
+                        <dd>@Model.Binding</dd>
+                    }
+                    @if (!string.IsNullOrEmpty(Model.Finish))
+                    {
+                        <dt>Finish:</dt>
+                        <dd>@Model.Finish</dd>
+                    }
+                </dl>
+            </div>
         </div>
     </div>
 </section>

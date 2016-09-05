@@ -1,0 +1,44 @@
+﻿@import '../variables.d.scss';
+
+dl {
+    background: $white;
+    box-sizing: border-box;
+
+    dt {
+        width: 35%;
+        float: left;
+        color: $black;
+        margin: 0;
+        padding: $size1 ($size1 / 2) $size1 0;
+        border-top: 1px solid $gray;
+        box-sizing: border-box;
+
+        &:first-child {
+            border: none;
+        }
+    }
+
+    dd {
+        width: 65%;
+        float: left;
+        color: $navy;
+        margin: 0;
+        padding: $size1 ($size1 / 2) $size1 0;
+        border-top: 1px solid $gray;
+        box-sizing: border-box;
+
+        &:nth-child(2) {
+            border: none;
+        }
+    }
+}
+
+/* Medium and up */
+@media screen and (min-width: $mediumScreenMinWidth) {
+
+}
+
+/* Large and up */
+@media screen and (min-width: $largeScreenMinWidth) {
+
+}
