@@ -10,7 +10,7 @@ namespace MichaelsMusic.Controllers
 {
     public class GuitarsController : Controller
     {
-        [Route("/guitars/")]
+        /* Get /guitars/ */
         public ActionResult Index()
         {
             var guitars = GetGuitars();
@@ -19,6 +19,14 @@ namespace MichaelsMusic.Controllers
             {
                 Guitars = guitars.OrderBy(x => x.DisplayName).ToArray()
             });
+        }
+
+        /* Get /guitars/{slug}/ */
+        public ActionResult Guitar(string slug)
+        {
+            var guitar = GetGuitars().FirstOrDefault(x => x.Slug == slug);
+
+            return View("~/Views/Guitars/_details.cshtml", guitar);
         }
 
         private List<Guitar> GetGuitars()
