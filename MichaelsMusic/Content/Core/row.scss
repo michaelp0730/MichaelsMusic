@@ -4,26 +4,32 @@
     padding: 0;
 
     &.row-size1 {
-        padding: $size1 0;
+        padding-top: $size1;
+        padding-bottom: $size1;
     }
 
     &.row-size2 {
-        padding: $size2 0;
+        padding-top: $size2;
+        padding-bottom: $size2;
     }
 
     &.row-size3 {
-        padding: $size3 0;
+        padding-top: $size3;
+        padding-bottom: $size3;
     }
 
     &.row-size4 {
-        padding: $size4 0;
+        padding-top: $size4;
+        padding-bottom: $size4;
     }
 
     &.row-size5 {
-        padding: $size5 0;
+        padding-top: $size5;
+        padding-bottom: $size5;
     }
 
     &.row-size6 {
-        padding: $size6 0;
+        padding-top: $size6;
+        padding-bottom: $size6;
     }
 }
