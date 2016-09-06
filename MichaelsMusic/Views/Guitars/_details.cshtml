@@ -9,57 +9,172 @@
 
 <section class="section section-size2">
     <div class="row">
-        <div class="columns">
+        <div class="column">
             <h1>@Model.DisplayName</h1>
             <h5><em>@Model.ShortDescription</em></h5>
         </div>
     </div>
     <div class="row">
-        <div class="columns">
+        <div class="column">
             <img src="@($"/images/guitars/{Model.FeaturedImage}")" alt="@Model.DisplayName"/>
         </div>
     </div>
     <div class="row row-size2">
-        <div class="columns">
+        <div class="column">
             @Html.Raw(Resources.ResourceManager.GetString(Model.Description))
             <h5>Approx. cost: <em class="gray">@Model.Cost</em></h5>
         </div>
     </div>
 </section>
 
-<section class="section section-size2 bg-off-white">
+<section class="section section-size3 bg-off-white">
     <div class="row">
-        <div class="columns">
-            <h2 class="red">Features</h2>
+        <div class="column">
+            <h2 class="purple">Features</h2>
         </div>
     </div>
     <div class="row row-size2">
-        <div class="columns">
+        <div class="four columns">
             <div class="container bg-white group">
-                <h3>Body</h3>
+                <h3 class="orange">Body</h3>
                 <dl>
                     @if (!string.IsNullOrEmpty(Model.BodyStyle))
                     {
-                        <dt>Body Style:</dt>
+                        <dt>Style:</dt>
                         <dd>@Model.BodyStyle</dd>
                     }
+
+                    <dt>Strings:</dt>
+                    @if (Model.Strings.HasValue)
+                    {
+                        <dd>@Model.Strings.ToString()</dd>
+                    }
+                    else
+                    {
+                        <dd>6</dd>
+                    }
+
                     @if (!string.IsNullOrEmpty(Model.BodyMaterial))
                     {
-                        <dt>Body Material:</dt>
+                        <dt>Material:</dt>
                         <dd>@Model.BodyMaterial</dd>
                     }
+
                     <dt>Carved Top:</dt>
                     <dd>@Model.CarvedTop.ToString()</dd>
-                    @if (!string.IsNullOrEmpty(Model.Binding))
-                    {
-                        <dt>Binding:</dt>
-                        <dd>@Model.Binding</dd>
-                    }
+
+                    <dt>Binding:</dt>
+                    <dd>@(Model.Binding ?? "none")</dd>
+
                     @if (!string.IsNullOrEmpty(Model.Finish))
                     {
                         <dt>Finish:</dt>
                         <dd>@Model.Finish</dd>
                     }
+                </dl>
+            </div>
+        </div>
+        <div class="four columns">
+            <div class="container bg-white group">
+                <h3 class="red">Neck</h3>
+                <dl>
+                    @if (!string.IsNullOrEmpty(Model.Fretboard))
+                    {
+                        <dt>Fretboard:</dt>
+                        <dd>@Model.Fretboard</dd>
+                    }
+
+                    @if (!string.IsNullOrEmpty(Model.NeckShape))
+                    {
+                        <dt>Shape:</dt>
+                        <dd>@Model.NeckShape</dd>
+                    }
+
+                    @if (!string.IsNullOrEmpty(Model.NeckMaterial))
+                    {
+                        <dt>Material:</dt>
+                        <dd>@Model.NeckMaterial</dd>
+                    }
+
+                    @if (!string.IsNullOrEmpty(Model.NeckJoint))
+                    {
+                        <dt>Joint:</dt>
+                        <dd>@Model.NeckJoint</dd>
+                    }
+
+                    @if (!string.IsNullOrEmpty(Model.NeckFinish))
+                    {
+                        <dt>Finish:</dt>
+                        <dd>@Model.NeckFinish</dd>
+                    }
+
+                    @if (!string.IsNullOrEmpty(Model.NeckBinding))
+                    {
+                        <dt>Binding:</dt>
+                        <dd>@Model.NeckBinding</dd>
+                    }
+
+                    @if (!string.IsNullOrEmpty(Model.ScaleLength))
+                    {
+                        <dt>Scale Length:</dt>
+                        <dd>@Model.ScaleLength</dd>
+                    }
+
+                    @if (Model.Frets.HasValue)
+                    {
+                        <dt>Frets:</dt>
+                        <dd>@Model.Frets</dd>
+                    }
+
+                    @if (Model.FingerboardRadius.HasValue)
+                    {
+                        <dt>Radius:</dt>
+                        <dd>@Model.FingerboardRadius.ToString()</dd>
+                    }
+
+                    @if (!string.IsNullOrEmpty(Model.Fretwire))
+                    {
+                        <dt>Fretwire:</dt>
+                        <dd>@Model.Fretwire</dd>
+                    }
+
+                    @if (!string.IsNullOrEmpty(Model.InlayMaterial))
+                    {
+                        <dt>Inlay Material:</dt>
+                        <dd>@Model.InlayMaterial</dd>
+                    }
+
+                    @if (!string.IsNullOrEmpty(Model.InlayShape))
+                    {
+                        <dt>Inlay Shape:</dt>
+                        <dd>@Model.InlayShape</dd>
+                    }
+
+                    @if (!string.IsNullOrEmpty(Model.Nut))
+                    {
+                        <dt>Nut:</dt>
+                        <dd>@Model.Nut</dd>
+                    }
+
+                    @if (!string.IsNullOrEmpty(Model.Headstock))
+                    {
+                        <dt>Headstock</dt>
+                        <dd>@Model.Headstock</dd>
+                    }
+
+                    @if (!string.IsNullOrEmpty(Model.Tuners))
+                    {
+                        <dt>Tuners</dt>
+                        <dd>@Model.Tuners</dd>
+                    }
+                </dl>
+            </div>
+        </div>
+        <div class="four columns">
+            <div class="container bg-white group">
+                <h3 class="blue">Hardware</h3>
+                <dl>
+
                 </dl>
             </div>
         </div>
