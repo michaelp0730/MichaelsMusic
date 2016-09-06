@@ -1,0 +1,19 @@
+﻿@import '../variables.d.scss';
+
+.breadcrumbs {
+    font-size: small;
+    margin-bottom: $size1;
+
+    li {
+        display: inline-block;
+        margin-bottom: 0;
+
+        &:after {
+            content: ' / ';
+        }
+
+        &:last-child:after {
+            content: '';
+        }
+    }
+}

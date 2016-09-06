@@ -1352,6 +1352,17 @@ dl {
 
 /* Large and up */
 /* X-Large */
+.breadcrumbs {
+  font-size: small;
+  margin-bottom: 12px; }
+  .breadcrumbs li {
+    display: inline-block;
+    margin-bottom: 0; }
+    .breadcrumbs li:after {
+      content: ' / '; }
+    .breadcrumbs li:last-child:after {
+      content: ''; }
+
 .container {
   padding: 12px;
   border-radius: 3px;
