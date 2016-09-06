@@ -234,6 +234,9 @@
     <Content Include="Content\Core\section.scss" />
     <Content Include="Content\variables.d.scss" />
     <Content Include="Content\app.scss" />
+    <Content Include="images\swipebox\icons.png" />
+    <Content Include="images\swipebox\icons.svg" />
+    <Content Include="images\swipebox\loader.gif" />
     <Content Include="JSON\guitars.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -251,12 +254,16 @@
     <Content Include="Content\Core\utilities.scss" />
     <Content Include="Content\Core\row.scss" />
     <Content Include="Content\Core\list.scss" />
+    <Content Include="Content\Patterns\breadcrumbs.scss" />
+    <Content Include="Content\swipebox.scss" />
     <None Include="Scripts\vendor\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\collection.js" />
     <Content Include="Scripts\header.js" />
     <Content Include="Scripts\vendor\jquery-1.10.2.js" />
     <Content Include="Scripts\vendor\jquery-1.10.2.min.js" />
     <None Include="Scripts\vendor\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\vendor\jquery.swipebox.js" />
+    <Content Include="Scripts\vendor\jquery.swipebox.min.js" />
     <Content Include="Scripts\vendor\jquery.validate.js" />
     <Content Include="Scripts\vendor\jquery.validate.min.js" />
     <Content Include="Scripts\vendor\jquery.validate.unobtrusive.js" />

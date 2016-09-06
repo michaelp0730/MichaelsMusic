@@ -9,7 +9,8 @@ namespace MichaelsMusic
         public static void RegisterBundles(BundleCollection bundles)
         {
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
-                "~/Scripts/vendor/jquery-1.10.2.min.js"));
+                "~/Scripts/vendor/jquery-1.10.2.min.js",
+                "~/Scripts/vendor/jquery.swipebox.min.js"));
 
             // Use the development version of Modernizr to develop with and learn from. Then, when you're
             // ready for production, use the build tool at http://modernizr.com to pick only the tests you need.
