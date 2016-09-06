@@ -1,12 +1,17 @@
 ﻿@import '../variables.d.scss';
 
 dl {
+    width: 100%;
     background: $white;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 
     dt {
         width: 35%;
         float: left;
+        clear: both;
         color: $black;
         margin: 0;
         padding: $size1 ($size1 / 2) $size1 0;

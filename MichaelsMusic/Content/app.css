@@ -1237,11 +1237,16 @@ img.pull-right {
     padding-bottom: 72px; }
 
 dl {
+  width: 100%;
   background: #FFFFFF;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
   dl dt {
     width: 35%;
     float: left;
+    clear: both;
     color: #111111;
     margin: 0;
     padding: 12px 6px 12px 0;
@@ -1349,7 +1354,8 @@ dl {
 /* X-Large */
 .container {
   padding: 12px;
-  border-radius: 3px; }
+  border-radius: 3px;
+  margin-bottom: 36px; }
 
 .item-collection {
   list-style: none;
