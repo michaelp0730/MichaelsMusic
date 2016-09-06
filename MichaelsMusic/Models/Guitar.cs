@@ -20,7 +20,6 @@ namespace MichaelsMusic.Models
         public string InlayMaterial { get; set; }
         public string InlayShape { get; set; }
         public bool IsHardtail { get; set; }
-        public bool IsTopJack { get; set; }
         public string Knobs { get; set; }
         public string MiddlePickup { get; set; }
         public string NeckBinding { get; set; }
