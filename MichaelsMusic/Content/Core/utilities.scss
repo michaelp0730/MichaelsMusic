@@ -1,5 +1,9 @@
 ﻿@import '../variables.d.scss';
 
+.display-none {
+    display: none;
+}
+
 img.pull-left {
     float: left;
     margin: 0 7px 7px 0;

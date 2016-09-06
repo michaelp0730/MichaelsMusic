@@ -26,8 +26,16 @@
     <div class="row">
         <div class="column">
             <a href="@($"/images/guitars/{Model.FeaturedImage}")" class="swipebox" title="My caption">
-                <img src="@($"/images/guitars/{Model.FeaturedImage}")" alt="@Model.DisplayName"/>
+                <img src="@($"/images/guitars/{Model.FeaturedImage}")" alt="@Model.DisplayName" />
             </a>
+            <div class="display-none">
+                @foreach (var img in Model.Images)
+                {
+                    <a href="@($"/images/guitars/{img}")" class="swipebox">
+                        <img src="@($"/images/guitars/{img}")" />
+                    </a>
+                }
+            </div>
         </div>
     </div>
     <div class="row row-size2">
