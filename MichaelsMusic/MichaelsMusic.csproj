@@ -258,6 +258,7 @@
     <Content Include="Content\swipebox.scss" />
     <None Include="Scripts\vendor\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\collection.js" />
+    <Content Include="Scripts\app.js" />
     <Content Include="Scripts\header.js" />
     <Content Include="Scripts\vendor\jquery-1.10.2.js" />
     <Content Include="Scripts\vendor\jquery-1.10.2.min.js" />

@@ -25,7 +25,9 @@
     </div>
     <div class="row">
         <div class="column">
-            <img src="@($"/images/guitars/{Model.FeaturedImage}")" alt="@Model.DisplayName"/>
+            <a href="@($"/images/guitars/{Model.FeaturedImage}")" class="swipebox" title="My caption">
+                <img src="@($"/images/guitars/{Model.FeaturedImage}")" alt="@Model.DisplayName"/>
+            </a>
         </div>
     </div>
     <div class="row row-size2">

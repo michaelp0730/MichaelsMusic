@@ -19,7 +19,8 @@ namespace MichaelsMusic
 
             bundles.Add(new ScriptBundle("~/bundles/app").Include(
                 "~/Scripts/header.js",
-                "~/Scripts/collection.js"));
+                "~/Scripts/collection.js",
+                "~/Scripts/app.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                 "~/Content/app.min.css",
