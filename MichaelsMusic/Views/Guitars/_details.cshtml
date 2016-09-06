@@ -28,6 +28,9 @@
             <a href="@($"/images/guitars/{Model.FeaturedImage}")" class="swipebox" title="My caption">
                 <img src="@($"/images/guitars/{Model.FeaturedImage}")" alt="@Model.DisplayName" />
             </a>
+            <div>
+                <small><em>Click image for slideshow</em></small>
+            </div>
             <div class="display-none">
                 @foreach (var img in Model.Images)
                 {
