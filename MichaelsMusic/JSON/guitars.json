@@ -44,7 +44,15 @@
             {
                 "Text": "McNaught official VDC page",
                 "Url": "http://mcnaughtcustomguitars.com/vintage-double-cut/"
+            },
+            {
+                "Text": "McNaught VDC on Facebook",
+                "Url": "https://www.facebook.com/AustinGuitarHouse/photos/?tab=album&album_id=721977497832416"
             }
+        ],
+        "VideoLinks": [
+            "<iframe src=\"https://www.youtube.com/embed/fqTzEStZowo\" frameborder=\"0\" allowfullscreen></iframe>",
+            "<iframe src=\"https://www.youtube.com/embed/uxt6FJvSM_E\" frameborder=\"0\" allowfullscreen></iframe>"
         ]
     },
     {
@@ -96,7 +104,21 @@
             {
                 "Text": "PRS official Custom 24 page",
                 "Url": "http://www.prsguitars.com/custom24/"
+            },
+            {
+                "Text": "Review by Guitar Player magazine",
+                "Url": "http://www.guitarplayer.com/gear/1012/reviewed-prs-30th-anniversary-custom-24-and-mccarty/54916"
+            },
+            {
+                "Text": "Review by Premier Guitar magazine",
+                "Url": "http://www.premierguitar.com/articles/19750-032013-prs-custom-24-review"
             }
+        ],
+        "VideoLinks": [
+            "<iframe src=\"https://www.youtube.com/embed/-Grz2HShuQc\" frameborder=\"0\" allowfullscreen></iframe>",
+            "<iframe src=\"https://www.youtube.com/embed/UCalm5Wea0Q\" frameborder=\"0\" allowfullscreen></iframe>",
+            "<iframe src=\"https://www.youtube.com/embed/rpU1ezMwW_Q\" frameborder=\"0\" allowfullscreen></iframe>",
+            "<iframe src=\"https://www.youtube.com/embed/86ZVk2DYFYs\" frameborder=\"0\" allowfullscreen></iframe>"
         ]
     },
     {
