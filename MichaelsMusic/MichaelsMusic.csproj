@@ -256,6 +256,7 @@
     <Content Include="Content\Core\list.scss" />
     <Content Include="Content\Patterns\breadcrumbs.scss" />
     <Content Include="Content\swipebox.scss" />
+    <Content Include="Content\Patterns\details.scss" />
     <None Include="Scripts\vendor\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\collection.js" />
     <Content Include="Scripts\app.js" />
