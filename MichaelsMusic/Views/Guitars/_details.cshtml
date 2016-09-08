@@ -25,7 +25,7 @@
     </div>
     <div class="row">
         <div class="column">
-            <div class="images-container pull-right">
+            <div class="images-container">
                 <a href="@($"/images/guitars/{Model.FeaturedImage}")" class="swipebox">
                     <img src="@($"/images/guitars/{Model.FeaturedImage}")" alt="@Model.DisplayName" />
                 </a>
@@ -41,7 +41,9 @@
                     }
                 </div>
             </div>
-            @Html.Raw(Resources.ResourceManager.GetString(Model.Description))
+            <div class="details-content">
+                @Html.Raw(Resources.ResourceManager.GetString(Model.Description))
+            </div>
             <h5>Approx. cost: <em class="gray">@Model.Cost</em></h5>
         </div>
     </div>
@@ -50,13 +52,13 @@
 <section class="section section-size3 bg-off-white">
     <div class="row">
         <div class="column">
-            <h2 class="purple text-center">Features</h2>
+            <h2 class="gray text-center">Features</h2>
         </div>
     </div>
     <div class="row row-size1">
         <div class="four columns">
             <div class="stats-container bg-white group">
-                <h3 class="orange">Body</h3>
+                <h3 class="blue">Body</h3>
                 <dl>
                     @if (!string.IsNullOrEmpty(Model.BodyStyle))
                     {
@@ -96,7 +98,7 @@
         </div>
         <div class="four columns">
             <div class="stats-container bg-white group">
-                <h3 class="red">Neck</h3>
+                <h3 class="blue">Neck</h3>
                 <dl>
                     @if (!string.IsNullOrEmpty(Model.Fretboard))
                     {

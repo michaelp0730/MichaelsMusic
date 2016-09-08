@@ -1652,6 +1652,13 @@ dl {
     float: right;
     margin: 0 12px 24px 24px; } }
 
+/* Large and up */
+@media screen and (min-width: 64em) {
+  .details-content {
+    width: 66%; }
+  .images-container {
+    margin: 0 10% 72px 10%; } }
+
 .main-footer {
   padding: 0 10px; }
 

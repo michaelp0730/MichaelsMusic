@@ -27,3 +27,14 @@
         margin: 0 $size1 $size2 $size2;
     }
 }
+
+/* Large and up */
+@media screen and (min-width: $largeScreenMinWidth) {
+    .details-content {
+        width: 66%;
+    }
+
+    .images-container {
+        margin: 0 10% $size6 10%;
+    }
+}
