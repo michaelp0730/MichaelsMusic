@@ -24,11 +24,11 @@ dl {
     }
 
     dd {
-        width: 65%;
+        width: 60%;
         float: left;
         color: $navy;
         margin: 0;
-        padding: $size1 ($size1 / 2) $size1 0;
+        padding: $size1 ($size1 / 2) $size1 5%;
         border-top: 1px solid $gray;
         box-sizing: border-box;
 

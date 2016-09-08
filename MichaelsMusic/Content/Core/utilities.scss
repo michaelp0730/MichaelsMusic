@@ -4,6 +4,10 @@
     display: none;
 }
 
+.text-center {
+    text-align: center;
+}
+
 img.pull-left {
     float: left;
     margin: 0 7px 7px 0;
@@ -12,6 +16,10 @@ img.pull-left {
 img.pull-right {
     float: right;
     margin: 0 0 7px 7px;
+}
+
+.margin-bottom-0 {
+    margin-bottom: 0!important;
 }
 
 .clearfix:after {

@@ -1059,6 +1059,9 @@ html.swipebox-html.swipebox-touch {
 .display-none {
   display: none; }
 
+.text-center {
+  text-align: center; }
+
 img.pull-left {
   float: left;
   margin: 0 7px 7px 0; }
@@ -1066,6 +1069,9 @@ img.pull-left {
 img.pull-right {
   float: right;
   margin: 0 0 7px 7px; }
+
+.margin-bottom-0 {
+  margin-bottom: 0 !important; }
 
 .clearfix:after {
   visibility: hidden;
@@ -1470,11 +1476,11 @@ dl {
     dl dt:first-child {
       border: none; }
   dl dd {
-    width: 65%;
+    width: 60%;
     float: left;
     color: #001F3F;
     margin: 0;
-    padding: 12px 6px 12px 0;
+    padding: 12px 6px 12px 5%;
     border-top: 1px solid #AAAAAA;
     box-sizing: border-box; }
     dl dd:nth-child(2) {
@@ -1578,11 +1584,6 @@ dl {
     .breadcrumbs li:last-child:after {
       content: ''; }
 
-.container {
-  padding: 12px;
-  border-radius: 3px;
-  margin-bottom: 36px; }
-
 .item-collection {
   list-style: none;
   margin: 0;
@@ -1630,6 +1631,27 @@ dl {
     width: 20%; } }
 
 /* X-Large */
+.stats-container {
+  margin-bottom: 36px;
+  padding: 12px;
+  border-radius: 3px; }
+
+.images-container {
+  float: none;
+  margin: 0 0 24px; }
+
+/*
+ * Media Queries
+ */
+/* Medium and up */
+@media screen and (min-width: 40em) {
+  .stats-container {
+    margin-bottom: 0; }
+  .images-container {
+    max-width: 250px;
+    float: right;
+    margin: 0 12px 24px 24px; } }
+
 .main-footer {
   padding: 0 10px; }
 

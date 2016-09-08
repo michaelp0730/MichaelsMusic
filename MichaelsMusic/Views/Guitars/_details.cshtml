@@ -25,24 +25,22 @@
     </div>
     <div class="row">
         <div class="column">
-            <a href="@($"/images/guitars/{Model.FeaturedImage}")" class="swipebox">
-                <img src="@($"/images/guitars/{Model.FeaturedImage}")" alt="@Model.DisplayName" />
-            </a>
-            <div>
-                <small><em>Click image for slideshow</em></small>
+            <div class="images-container pull-right">
+                <a href="@($"/images/guitars/{Model.FeaturedImage}")" class="swipebox">
+                    <img src="@($"/images/guitars/{Model.FeaturedImage}")" alt="@Model.DisplayName" />
+                </a>
+                <div>
+                    <small><em>Click image for slideshow</em></small>
+                </div>
+                <div class="display-none">
+                    @foreach (var img in Model.Images)
+                    {
+                        <a href="@($"/images/guitars/{img}")" class="swipebox">
+                            <img src="@($"/images/guitars/{img}")" />
+                        </a>
+                    }
+                </div>
             </div>
-            <div class="display-none">
-                @foreach (var img in Model.Images)
-                {
-                    <a href="@($"/images/guitars/{img}")" class="swipebox">
-                        <img src="@($"/images/guitars/{img}")" />
-                    </a>
-                }
-            </div>
-        </div>
-    </div>
-    <div class="row row-size2">
-        <div class="column">
             @Html.Raw(Resources.ResourceManager.GetString(Model.Description))
             <h5>Approx. cost: <em class="gray">@Model.Cost</em></h5>
         </div>
@@ -52,12 +50,12 @@
 <section class="section section-size3 bg-off-white">
     <div class="row">
         <div class="column">
-            <h2 class="purple">Features</h2>
+            <h2 class="purple text-center">Features</h2>
         </div>
     </div>
-    <div class="row row-size2">
+    <div class="row row-size1">
         <div class="four columns">
-            <div class="container bg-white group">
+            <div class="stats-container bg-white group">
                 <h3 class="orange">Body</h3>
                 <dl>
                     @if (!string.IsNullOrEmpty(Model.BodyStyle))
@@ -97,7 +95,7 @@
             </div>
         </div>
         <div class="four columns">
-            <div class="container bg-white group">
+            <div class="stats-container bg-white group">
                 <h3 class="red">Neck</h3>
                 <dl>
                     @if (!string.IsNullOrEmpty(Model.Fretboard))
@@ -193,7 +191,7 @@
             </div>
         </div>
         <div class="four columns">
-            <div class="container bg-white group">
+            <div class="stats-container margin-bottom-0 bg-white group">
                 <h3 class="blue">Hardware</h3>
                 <dl>
                     @if (!string.IsNullOrEmpty(Model.Bridge))
