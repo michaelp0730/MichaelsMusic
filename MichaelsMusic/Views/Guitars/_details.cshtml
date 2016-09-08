@@ -83,7 +83,7 @@
                     }
 
                     <dt>Carved Top:</dt>
-                    <dd>@Model.CarvedTop.ToString()</dd>
+                    <dd>@(Model.CarvedTop ? "Yes" : "No")</dd>
 
                     <dt>Binding:</dt>
                     <dd>@(Model.Binding ?? "none")</dd>
@@ -203,7 +203,7 @@
                     }
 
                     <dt>Hardtail:</dt>
-                    <dd>@Model.IsHardtail.ToString()</dd>
+                    <dd>@(Model.IsHardtail ? "Yes" : "No")</dd>
 
                     @if (!string.IsNullOrEmpty(Model.BridgePickup))
                     {
@@ -229,11 +229,8 @@
                         <dd>@Model.PickupSelector</dd>
                     }
 
-                    @if (Model.CoilTap == true)
-                    {
-                        <dt>Coil Tap:</dt>
-                        <dd>True</dd>
-                    }
+                    <dt>Coil Tap:</dt>
+                    <dd>@(Model.CoilTap ? "Yes" : "No")</dd>
 
                     @if (!string.IsNullOrEmpty(Model.Controls))
                     {
@@ -275,7 +272,7 @@
         <div class="four columns">
             @if (Model.Links.Any())
             {
-                <h2 class="maroon">Helpful Links</h2>
+                <h2 class="maroon">Links</h2>
                 <ul>
                     @foreach (var link in Model.Links)
                     {
