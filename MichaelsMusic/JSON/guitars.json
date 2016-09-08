@@ -215,7 +215,20 @@
             {
                 "Text": "Collings official 290 DC page",
                 "Url": "http://www.collingsguitars.com/electric-guitars/290-dc/"
+            },
+            {
+                "Text": "Review by Premier Guitar magazine",
+                "Url": "http://www.premierguitar.com/articles/Collings_290_DC_S_Electric_Guitar_Review"
+            },
+            {
+                "Text": "Review from Eddie's Guitars blog",
+                "Url": "http://eddiesguitars.com/blog/collings-290-dc-electric-guitar-review/"
             }
+        ],
+        "VideoLinks": [
+            "<iframe src=\"https://www.youtube.com/embed/pcleCLK2Fbs\" frameborder=\"0\" allowfullscreen></iframe>",
+            "<iframe src=\"https://www.youtube.com/embed/Awy08tngKIs\" frameborder=\"0\" allowfullscreen></iframe>",
+            "<iframe src=\"https://www.youtube.com/embed/5nuQ8Gw2-L8\" frameborder=\"0\" allowfullscreen></iframe>"
         ]
     }
 ]

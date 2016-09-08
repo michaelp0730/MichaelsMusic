@@ -1640,6 +1640,12 @@ dl {
   float: none;
   margin: 0 0 24px; }
 
+.video-container {
+  margin-bottom: 24px; }
+  .video-container iframe {
+    width: auto;
+    height: auto; }
+
 /*
  * Media Queries
  */
@@ -1650,7 +1656,11 @@ dl {
   .images-container {
     max-width: 250px;
     float: right;
-    margin: 0 12px 24px 24px; } }
+    margin: 0 12px 24px 24px; }
+  .video-container iframe {
+    width: 560px;
+    max-width: 100%;
+    height: 315px; } }
 
 /* Large and up */
 @media screen and (min-width: 64em) {

@@ -9,7 +9,6 @@ namespace MichaelsMusic.Models
         public bool WasMine { get; set; }
         public int YearBuilt { get; set; }
         public Link[] Links { get; set; }
-        public Link[] VideoLinks { get; set; }
         public string ArtistName { get; set; }
         public string BrandName { get; set; }
         public string Cost { get; set; }
@@ -21,5 +20,6 @@ namespace MichaelsMusic.Models
         public string ShortDescription { get; set; }
         public string Slug { get; set; }
         public string Thumbnail { get; set; }
+        public string[] VideoLinks { get; set; }
     }
 }

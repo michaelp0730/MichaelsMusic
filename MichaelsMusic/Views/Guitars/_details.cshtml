@@ -257,3 +257,34 @@
         </div>
     </div>
 </section>
+
+<section class="section">
+    <div class="row">
+        <div class="eight columns">
+            @if (Model.VideoLinks.Any())
+            {
+                <h2 class="maroon">Videos</h2>
+                foreach (var video in Model.VideoLinks)
+                {
+                    <div class="video-container">
+                        @Html.Raw(video)
+                    </div>
+                }
+            }
+        </div>
+        <div class="four columns">
+            @if (Model.Links.Any())
+            {
+                <h2 class="maroon">Helpful Links</h2>
+                <ul>
+                    @foreach (var link in Model.Links)
+                    {
+                        <li>
+                            <a href="@link.URL">@link.Text</a>
+                        </li>
+                    }
+                </ul>
+            }
+        </div>
+    </div>
+</section>

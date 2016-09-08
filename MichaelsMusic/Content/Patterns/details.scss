@@ -11,6 +11,15 @@
     margin: 0 0 $size2;
 }
 
+.video-container {
+    margin-bottom: $size2;
+
+    iframe {
+        width: auto;
+        height: auto;
+    }
+}
+
 /*
  * Media Queries
  */
@@ -25,6 +34,12 @@
         max-width: 250px;
         float: right;
         margin: 0 $size1 $size2 $size2;
+    }
+
+    .video-container iframe {
+        width: 560px;
+        max-width: 100%;
+        height: 315px;
     }
 }
 
