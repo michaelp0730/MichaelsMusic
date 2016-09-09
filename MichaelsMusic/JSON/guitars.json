@@ -329,5 +329,76 @@
             "Uza5-VTClIc",
             "O2sLkMaDCYk"
         ]
+    },
+    {
+        "Slug": "gibson-es-335-chris-cornell",
+        "DisplayName": "Gibson ES-335 Chris Cornell",
+        "BrandName": "Gibson",
+        "ModelName": "ES-335 Chris Cornell",
+        "Cost": "~$3,500",
+        "ShortDescription": "A double-cutaway semi-hollow ES-335 featuring Lollartron picksups, made to Chris Cornell's specs.",
+        "Description": "Gibson_ES335_ChrisCornell_Description",
+        "CarvedTop": true,
+        "BodyStyle": "Double Chamber Semi-Hollow Double Cutaway",
+        "BodyMaterial": "3ply - Maple/Poplar/Maple",
+        "NeckMaterial": "Mahogany",
+        "NeckJoint": "Mortise & Tenon",
+        "NeckBinding": ".075 in",
+        "Finish": "Nitrocellulose Lacquer",
+        "FingerboardRadius": "12 in",
+        "IsHardtail": true,
+        "Bridge": "Bigsby Tremolo or Gibson Tune-O-Matic",
+        "Binding": "Cream",
+        "NeckPickup": "Jason Lollar Lollartron",
+        "BridgePickup": "Jason Lollar Lollartron",
+        "ScaleLength": "24.75 in.",
+        "Frets": 22,
+        "Fretboard": "Rosewood",
+        "Fretwire": "Standard",
+        "Strings": 6,
+        "Knobs": "Clear Top Hats",
+        "Controls": "2 Volume Controls, 2 Tone",
+        "Headstock": "Gibson Pearl Inlay",
+        "InlayMaterial": "Pearloid",
+        "InlayShape": "Dot",
+        "Nut": "Corian 1.687",
+        "PickupSelector": "3-way switch",
+        "Tuners": "14:1 ratio, Grover™ Rotomatic®",
+        "Case": "Gibson Memphis Silkscreened Case - Black Pleather Exterior - Charcoal Plush Interior",
+        "FeaturedImage": "gibson/gibson-es-335-chris-cornell-6.jpg",
+        "Thumbnail": "gibson/gibson-es-335-chris-cornell-thumb.jpg",
+        "Images": [
+            "gibson/gibson-es-335-chris-cornell-1.jpg",
+            "gibson/gibson-es-335-chris-cornell-2.jpg",
+            "gibson/gibson-es-335-chris-cornell-3.jpg",
+            "gibson/gibson-es-335-chris-cornell-4.jpg",
+            "gibson/gibson-es-335-chris-cornell-5.jpg",
+            "gibson/gibson-es-335-chris-cornell-6.jpg"
+        ],
+        "Links": [
+            {
+                "Text": "Official Gibson Specs page",
+                "Url": "http://www.gibson.com/Products/Electric-Guitars/ES/Gibson-Memphis/Chris-Cornell-ES-335/Specs.aspx"
+            },
+            {
+                "Text": "Review by Premier Guitar magazine",
+                "Url": "http://www.premierguitar.com/articles/Musikmesse_13_Gibson_Chris_Cornell_ES_335_Bill_Kelliher_Golden_Axe_Explorer_Demos_"
+            },
+            {
+                "Text": "Review from MusicConnection.com",
+                "Url": "http://www.musicconnection.com/chris-cornell-es-335-gibson-guitar/"
+            },
+            {
+                "Text": "Equipboard",
+                "Url": "http://equipboard.com/items/gibson-memphis-chris-cornell-es-335"
+            }
+        ],
+        "YouTubeIds": [
+            "REmCB0FIN44",
+            "7gMVb1-cYBc",
+            "DDqcDRDRv6s",
+            "EHAuV-0gRmg",
+            "vlxma4FJJ5k"
+        ]
     }
 ]

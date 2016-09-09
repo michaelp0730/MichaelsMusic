@@ -81,6 +81,16 @@ namespace MichaelsMusic.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to &lt;p&gt;Chris Cornell is something of a modern legend, playing with big names Soundgarden, Audioslave and Temple of the Dog, Cornell has helped shape modern rock music like very few others. This semi-hollow laminate maple instrument is built with the man himself in mind, taking the traditional thin-line hollow-body design and including the addition of Jason Lollar™ Lollartron® Filter&apos;Tron pickups that perfectly combines the traditional &apos;335 dot&apos; design with modern appointments.&lt;/p&gt;
+        ///&lt;p&gt;The laminate maple body is [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string Gibson_ES335_ChrisCornell_Description {
+            get {
+                return ResourceManager.GetString("Gibson_ES335_ChrisCornell_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to &lt;p&gt;The G&amp;amp;L Legacy™ blends contemporary refinements from the Leo Fender†-designed S-500™ and Comanche® models with classic Alnico V pickups. If your holy grail is faithful Alnico single-coil tone with modern refinements and superb craftsmanship, the Legacy makes for an excellent choice.&lt;/p&gt;
         ///&lt;p&gt;The Legacy’s vintage-spec CLF-100 Alnico V pickups have that unmistakable chime and quack reminiscent of the best examples from the late ‘50s, thanks to the work of Paul Gagon, G&amp;amp;L VP Engineering. Gagon found  [rest of string was truncated]&quot;;.
         /// </summary>

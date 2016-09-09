@@ -207,6 +207,13 @@
     <Content Include="images\guitars\collings\collings-cl-deluxe-8.jpg" />
     <Content Include="images\guitars\collings\collings-cl-deluxe-9.jpg" />
     <Content Include="images\guitars\collings\collings-cl-deluxe-thumb.jpg" />
+    <Content Include="images\guitars\gibson\gibson-es-335-chris-cornell-1.jpg" />
+    <Content Include="images\guitars\gibson\gibson-es-335-chris-cornell-2.jpg" />
+    <Content Include="images\guitars\gibson\gibson-es-335-chris-cornell-3.jpg" />
+    <Content Include="images\guitars\gibson\gibson-es-335-chris-cornell-4.jpg" />
+    <Content Include="images\guitars\gibson\gibson-es-335-chris-cornell-5.jpg" />
+    <Content Include="images\guitars\gibson\gibson-es-335-chris-cornell-6.jpg" />
+    <Content Include="images\guitars\gibson\gibson-es-335-chris-cornell-thumb.jpg" />
     <Content Include="images\guitars\gl\gl-legacy-1.jpg" />
     <Content Include="images\guitars\gl\gl-legacy-2.jpg" />
     <Content Include="images\guitars\gl\gl-legacy-3.jpg" />
