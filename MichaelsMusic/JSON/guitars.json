@@ -50,9 +50,9 @@
                 "Url": "https://www.facebook.com/AustinGuitarHouse/photos/?tab=album&album_id=721977497832416"
             }
         ],
-        "VideoLinks": [
-            "<iframe src=\"https://www.youtube.com/embed/fqTzEStZowo\" frameborder=\"0\" allowfullscreen></iframe>",
-            "<iframe src=\"https://www.youtube.com/embed/uxt6FJvSM_E\" frameborder=\"0\" allowfullscreen></iframe>"
+        "YouTubeIds": [
+            "fqTzEStZowo",
+            "uxt6FJvSM_E"
         ]
     },
     {
@@ -114,11 +114,11 @@
                 "Url": "http://www.premierguitar.com/articles/19750-032013-prs-custom-24-review"
             }
         ],
-        "VideoLinks": [
-            "<iframe src=\"https://www.youtube.com/embed/-Grz2HShuQc\" frameborder=\"0\" allowfullscreen></iframe>",
-            "<iframe src=\"https://www.youtube.com/embed/UCalm5Wea0Q\" frameborder=\"0\" allowfullscreen></iframe>",
-            "<iframe src=\"https://www.youtube.com/embed/rpU1ezMwW_Q\" frameborder=\"0\" allowfullscreen></iframe>",
-            "<iframe src=\"https://www.youtube.com/embed/86ZVk2DYFYs\" frameborder=\"0\" allowfullscreen></iframe>"
+        "YouTubeIds": [
+            "-Grz2HShuQc",
+            "UCalm5Wea0Q",
+            "rpU1ezMwW_Q",
+            "86ZVk2DYFYs"
         ]
     },
     {
@@ -184,10 +184,10 @@
                 "Url": "http://gjd.guitaraffair.com/reviews/67-guitar-reviews/102-guitar-review-collings-cl-deluxe"
             }
         ],
-        "VideoLinks": [
-            "<iframe src=\"https://www.youtube.com/embed/QwLXZzXyV94\" frameborder=\"0\" allowfullscreen></iframe>",
-            "<iframe src=\"https://www.youtube.com/embed/5jVJbRmfabA\" frameborder=\"0\" allowfullscreen></iframe>",
-            "<iframe src=\"https://www.youtube.com/embed/DmGLYYGcXWY\" frameborder=\"0\" allowfullscreen></iframe>"
+        "YouTubeIds": [
+            "QwLXZzXyV94",
+            "5jVJbRmfabA",
+            "DmGLYYGcXWY"
         ]
     },
     {
@@ -256,10 +256,10 @@
                 "Url": "http://eddiesguitars.com/blog/collings-290-dc-electric-guitar-review/"
             }
         ],
-        "VideoLinks": [
-            "<iframe src=\"https://www.youtube.com/embed/pcleCLK2Fbs\" frameborder=\"0\" allowfullscreen></iframe>",
-            "<iframe src=\"https://www.youtube.com/embed/Awy08tngKIs\" frameborder=\"0\" allowfullscreen></iframe>",
-            "<iframe src=\"https://www.youtube.com/embed/5nuQ8Gw2-L8\" frameborder=\"0\" allowfullscreen></iframe>"
+        "YouTubeIds": [
+            "pcleCLK2Fbs",
+            "Awy08tngKIs",
+            "5nuQ8Gw2-L8"
         ]
     },
     {
@@ -324,10 +324,10 @@
                 "Url": "https://www.vintageguitar.com/1990/gl-legacy/"
             }
         ],
-        "VideoLinks": [
-            "<iframe src=\"https://www.youtube.com/embed/wnbrqbQoGWc\" frameborder=\"0\" allowfullscreen></iframe>",
-            "<iframe src=\"https://www.youtube.com/embed/Uza5-VTClIc\" frameborder=\"0\" allowfullscreen></iframe>",
-            "<iframe src=\"https://www.youtube.com/embed/O2sLkMaDCYk\" frameborder=\"0\" allowfullscreen></iframe>"
+        "YouTubeIds": [
+            "wnbrqbQoGWc",
+            "Uza5-VTClIc",
+            "O2sLkMaDCYk"
         ]
     }
 ]

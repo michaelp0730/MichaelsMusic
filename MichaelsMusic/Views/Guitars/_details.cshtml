@@ -264,13 +264,13 @@
 <section class="section">
     <div class="row">
         <div class="eight columns">
-            @if (Model.VideoLinks.Any())
+            @if (Model.YouTubeIds.Any())
             {
                 <h2 class="maroon">Videos</h2>
-                foreach (var video in Model.VideoLinks)
+                foreach (var id in Model.YouTubeIds)
                 {
                     <div class="video-container">
-                        @Html.Raw(video)
+                        <iframe src=@($"https://www.youtube.com/embed/{id}") frameborder="0" allowfullscreen></iframe>
                     </div>
                 }
             }

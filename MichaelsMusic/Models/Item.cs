@@ -20,6 +20,6 @@ namespace MichaelsMusic.Models
         public string ShortDescription { get; set; }
         public string Slug { get; set; }
         public string Thumbnail { get; set; }
-        public string[] VideoLinks { get; set; }
+        public string[] YouTubeIds { get; set; }
     }
 }
