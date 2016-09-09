@@ -220,7 +220,7 @@
         "Headstock": "Haircut",
         "InlayMaterial": "Mother Of Pearl",
         "InlayShape": "Dot",
-        "Knobs": "  Amber or black",
+        "Knobs": "Amber or black",
         "Nut": "1 11/16\"",
         "PickupSelector": "3-way switch",
         "Capacitors": "CTS 500K/ Jupiter Vintage Yellow",
@@ -260,6 +260,84 @@
             "pcleCLK2Fbs",
             "Awy08tngKIs",
             "5nuQ8Gw2-L8"
+        ]
+    },
+    {
+        "Slug": "collings-i35-deluxe",
+        "DisplayName": "Collings I-35 Deluxe",
+        "BrandName": "Collings",
+        "ModelName": "I-35 Deluxe",
+        "Cost": "$4,500 - $6,000",
+        "ShortDescription": "Semi-Hollow Honduran Mahogany double-cutaway. Uncompromising in every feature, the I-35 Deluxe is built for the discerning electric guitarist.",
+        "Description": "Collings_I35_Deluxe_Description",
+        "CarvedTop": false,
+        "BodyStyle": "Semi-Hollow Double Cut",
+        "BodyMaterial": "Honduran Mahogany",
+        "NeckMaterial": "Honduran Mahogany",
+        "NeckShape": "C Shape",
+        "NeckJoint": "Extra long mortise & tenon",
+        "NeckFinish": "High gloss nitrocellulose",
+        "Finish": "High gloss nitrocellulose",
+        "FingerboardRadius": "12 in",
+        "IsHardtail": true,
+        "Bridge": "TonePros ARV-II",
+        "NeckPickup": "Lollar Low Wind Imperial Humbucker",
+        "BridgePickup": "Lollar Low Wind Imperial Humbucker",
+        "ScaleLength": "24 7/8 in.",
+        "Frets": 22,
+        "Fretboard": "Rosewood",
+        "Fretwire": "Medium 18% nickel-silver",
+        "Strings": 6,
+        "Controls": "2 volume, 2 tone",
+        "Headstock": "Haircut",
+        "InlayMaterial": "Mother Of Pearl",
+        "InlayShape": "Parallelogram",
+        "Knobs": "Custom grained ivoroid",
+        "Nut": "1 11/16\"",
+        "PickupSelector": "3-way switch",
+        "Capacitors": "CTS 500K/ Jupiter Vintage Yellow",
+        "CoilTap": false,
+        "Tuners": "Chrome Gotoh w/ Collings logo",
+        "FeaturedImage": "collings/collings-i35-deluxe-4.jpg",
+        "Thumbnail": "collings/collings-i35-deluxe-thumb.jpg",
+        "Images": [
+            "collings/collings-i35-deluxe-1.jpg",
+            "collings/collings-i35-deluxe-2.jpg",
+            "collings/collings-i35-deluxe-3.jpg",
+            "collings/collings-i35-deluxe-4.jpg",
+            "collings/collings-i35-deluxe-5.jpg",
+            "collings/collings-i35-deluxe-6.jpg",
+            "collings/collings-i35-deluxe-7.jpg",
+            "collings/collings-i35-deluxe-8.jpg",
+            "collings/collings-i35-deluxe-9.jpg",
+            "collings/collings-i35-deluxe-10.jpg",
+            "collings/collings-i35-deluxe-11.jpg",
+            "collings/collings-i35-deluxe-12.jpg",
+            "collings/collings-i35-deluxe-13.jpg"
+        ],
+        "Links": [
+            {
+                "Text": "Collings official I-35 Deluxe page",
+                "Url": "http://www.collingsguitars.com/electric-guitars/i35-deluxe/"
+            },
+            {
+                "Text": "Review from Eddie's Guitars blog",
+                "Url": "http://eddiesguitars.com/blog/collings-i35-deluxe-electric-guitar-review/"
+            },
+            {
+                "Text": "Review from GuitarPlayer.com",
+                "Url": "http://www.guitarplayer.com/miscellaneous/1139/the-johnny-depp-collings-i-35-deluxe/16541"
+            },
+            {
+                "Text": "Review from Vintage Guitar magazine",
+                "Url": "https://www.vintageguitar.com/3485/collings-i-35/"
+            }
+        ],
+        "YouTubeIds": [
+            "-3WIhKnOk6g",
+            "D_Apx2_5bGk",
+            "0gl_b3OI8xE",
+            "g64VoLvXKqo"
         ]
     },
     {

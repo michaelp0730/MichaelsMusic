@@ -81,6 +81,15 @@ namespace MichaelsMusic.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to &lt;p&gt;The I-35 Deluxe combines our most premium features with the rich and harmonically complex sound of all solid wood construction. As part of its trim package, the dark textures of the I-35 Deluxe&apos;s rosewood fingerboard and ebony faceplate are highlighted by ivoroid fingerboard and peghead binding. Each Deluxe series guitar is also fitted with ivoroid &quot;top hat&quot; knobs and pickup rings that are hand made in house solely for this series of instruments. Uncompromising in every feature, the I-35 Deluxe is built  [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string Collings_I35_Deluxe_Description {
+            get {
+                return ResourceManager.GetString("Collings_I35_Deluxe_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to &lt;p&gt;Chris Cornell is something of a modern legend, playing with big names Soundgarden, Audioslave and Temple of the Dog, Cornell has helped shape modern rock music like very few others. This semi-hollow laminate maple instrument is built with the man himself in mind, taking the traditional thin-line hollow-body design and including the addition of Jason Lollar™ Lollartron® Filter&apos;Tron pickups that perfectly combines the traditional &apos;335 dot&apos; design with modern appointments.&lt;/p&gt;
         ///&lt;p&gt;The laminate maple body is [rest of string was truncated]&quot;;.
         /// </summary>
