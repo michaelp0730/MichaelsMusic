@@ -207,6 +207,16 @@
     <Content Include="images\guitars\collings\collings-cl-deluxe-8.jpg" />
     <Content Include="images\guitars\collings\collings-cl-deluxe-9.jpg" />
     <Content Include="images\guitars\collings\collings-cl-deluxe-thumb.jpg" />
+    <Content Include="images\guitars\gl\gl-legacy-1.jpg" />
+    <Content Include="images\guitars\gl\gl-legacy-2.jpg" />
+    <Content Include="images\guitars\gl\gl-legacy-3.jpg" />
+    <Content Include="images\guitars\gl\gl-legacy-4.jpg" />
+    <Content Include="images\guitars\gl\gl-legacy-5.jpg" />
+    <Content Include="images\guitars\gl\gl-legacy-6.jpg" />
+    <Content Include="images\guitars\gl\gl-legacy-7.jpg" />
+    <Content Include="images\guitars\gl\gl-legacy-8.jpg" />
+    <Content Include="images\guitars\gl\gl-legacy-9.jpg" />
+    <Content Include="images\guitars\gl\gl-legacy-thumb.jpg" />
     <Content Include="images\guitars\mcnaught\mcnaught-vdc-1.jpg" />
     <Content Include="images\guitars\mcnaught\mcnaught-vdc-2.jpg" />
     <Content Include="images\guitars\mcnaught\mcnaught-vdc-3.jpg" />

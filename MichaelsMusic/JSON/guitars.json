@@ -8,7 +8,7 @@
         "ShortDescription": "Mahogany body and neck with carved top, 'All Access' heel, and 'SET-THRU' neck.",
         "Description": "McNaught_VDC_Description",
         "CarvedTop": true,
-        "BodyStyle": "Solidbody Carved Top Double Cut",
+        "BodyStyle": "Solidbody Carved Top Double Cut SET-THRU Neck",
         "BodyMaterial": "Mahogany",
         "NeckMaterial": "Mahogany",
         "NeckJoint": "All-Access heel",
@@ -64,7 +64,7 @@
         "ShortDescription": "The Custom 24 is the quintessential PRS guitar. Featuring Mother-of-Pearl bird inlays, set neck, custom 85/15 pickups, and custom PRS tremolo. It is the original PRS.",
         "Description": "PRS_Custom24_Description",
         "CarvedTop": true,
-        "BodyStyle": "Solidbody Carved Top Double Cut",
+        "BodyStyle": "Solidbody Carved Top Double Cut Set Neck",
         "BodyMaterial": "Mahogany",
         "NeckMaterial": "Mahogany",
         "NeckShape": "Pattern-Regular or Pattern-Thin",
@@ -138,7 +138,7 @@
         "NeckFinish": "High gloss nitrocellulose",
         "Finish": "High gloss nitrocellulose",
         "Binding": "Grained ivoroid",
-        "FingerboardRadius": 12,
+        "FingerboardRadius": "12 in",
         "IsHardtail": true,
         "Bridge": "TonePros ARV-II",
         "NeckPickup": "Lollar Std Wind Imperial Humbucker",
@@ -206,7 +206,7 @@
         "NeckJoint": "Extra long mortise & tenon",
         "NeckFinish": "High gloss nitrocellulose",
         "Finish": "High gloss nitrocellulose",
-        "FingerboardRadius": 12,
+        "FingerboardRadius": "12 in",
         "IsHardtail": true,
         "Bridge": "TonePros TP6 Nashville",
         "NeckPickup": "Lollar P90",
@@ -260,6 +260,74 @@
             "<iframe src=\"https://www.youtube.com/embed/pcleCLK2Fbs\" frameborder=\"0\" allowfullscreen></iframe>",
             "<iframe src=\"https://www.youtube.com/embed/Awy08tngKIs\" frameborder=\"0\" allowfullscreen></iframe>",
             "<iframe src=\"https://www.youtube.com/embed/5nuQ8Gw2-L8\" frameborder=\"0\" allowfullscreen></iframe>"
+        ]
+    },
+    {
+        "Slug": "gl-legacy",
+        "DisplayName": "G&L Legacy",
+        "BrandName": "G&L",
+        "ModelName": "Legacy",
+        "Cost": "$1,400 - $1,600",
+        "ShortDescription": "The evolution of Leo Fender's classic 'S' style double-cutaway guitar - with single coils of course.",
+        "Description": "GL_Legacy_Description",
+        "CarvedTop": false,
+        "BodyStyle": "Solidbody Double Cut Bolt Neck",
+        "BodyMaterial": "Alder",
+        "NeckMaterial": "Maple",
+        "NeckShape": "C Shape (others available)",
+        "NeckJoint": "Bolt-on",
+        "NeckFinish": "Satin or Gloss",
+        "Finish": "Satin Frost or Gloss",
+        "FingerboardRadius": "9.5 in",
+        "IsHardtail": false,
+        "Bridge": "Leo Fender-designed G&L Dual-Fulcrum™ vibrato with forged brass saddles",
+        "NeckPickup": "CLF-100 Alnico single coil",
+        "MiddlePickup": "CLF-100 Alnico single coil",
+        "BridgePickup": "CLF-100 Alnico single coil",
+        "ScaleLength": "25.5 in.",
+        "Frets": 22,
+        "Fretboard": "Rosewood or Maple",
+        "Fretwire": "Jescar 57110 18% Nickel Silver Medium Jumbo",
+        "Strings": 6,
+        "Controls": "5-position pickup selector, volume, treble, bass (PTB system)",
+        "Headstock": "G&L Hook",
+        "InlayMaterial": "Mother Of Pearl or Plain Dot",
+        "InlayShape": "Dot",
+        "Nut": "100% natural bone",
+        "PickupSelector": "5-way switch",
+        "Tuners": "12:1 ratio, sealed-back",
+        "Case": "Deluxe Tolex hardshell",
+        "FeaturedImage": "gl/gl-legacy-9.jpg",
+        "Thumbnail": "gl/gl-legacy-thumb.jpg",
+        "Images": [
+            "gl/gl-legacy-1.jpg",
+            "gl/gl-legacy-2.jpg",
+            "gl/gl-legacy-3.jpg",
+            "gl/gl-legacy-4.jpg",
+            "gl/gl-legacy-5.jpg",
+            "gl/gl-legacy-6.jpg",
+            "gl/gl-legacy-7.jpg",
+            "gl/gl-legacy-8.jpg",
+            "gl/gl-legacy-9.jpg"
+        ],
+        "Links": [
+            {
+                "Text": "Official G&L Legacy page",
+                "Url": "http://glguitars.com/instruments/USA/guitars/legacy/index.asp"
+            },
+            {
+                "Text": "Legacy Special Review on iheartguitarblog.com",
+                "Url": "http://iheartguitarblog.com/2009/07/review-gl-legacy-special.html#sthash.SEk1zr3T.dpbs"
+            },
+            {
+                "Text": "Review from Vintage Guitar Magazine",
+                "Url": "https://www.vintageguitar.com/1990/gl-legacy/"
+            }
+        ],
+        "VideoLinks": [
+            "<iframe src=\"https://www.youtube.com/embed/wnbrqbQoGWc\" frameborder=\"0\" allowfullscreen></iframe>",
+            "<iframe src=\"https://www.youtube.com/embed/Uza5-VTClIc\" frameborder=\"0\" allowfullscreen></iframe>",
+            "<iframe src=\"https://www.youtube.com/embed/O2sLkMaDCYk\" frameborder=\"0\" allowfullscreen></iframe>"
         ]
     }
 ]

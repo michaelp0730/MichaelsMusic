@@ -81,6 +81,16 @@ namespace MichaelsMusic.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to &lt;p&gt;The G&amp;amp;L Legacy™ blends contemporary refinements from the Leo Fender†-designed S-500™ and Comanche® models with classic Alnico V pickups. If your holy grail is faithful Alnico single-coil tone with modern refinements and superb craftsmanship, the Legacy makes for an excellent choice.&lt;/p&gt;
+        ///&lt;p&gt;The Legacy’s vintage-spec CLF-100 Alnico V pickups have that unmistakable chime and quack reminiscent of the best examples from the late ‘50s, thanks to the work of Paul Gagon, G&amp;amp;L VP Engineering. Gagon found  [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string GL_Legacy_Description {
+            get {
+                return ResourceManager.GetString("GL_Legacy_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to &lt;p&gt;The McNaught Vintage Double Cut is a Mahogany solid body carved top guitar with a Mahogany &apos;SET-THRU&apos; neck and &apos;All-Access&apos; heel. It features a flame Maple bound Indian Rosewood fingerboard with 12\&quot; radius, 22 frets, 24 3/4\&quot; compensated scale length, Mother Of Pearl &apos;Offset Block&apos; inlays, Tone Pros Tune-O-Matic bridge, Sperzel locking tuners, Wagner Dual humbuckers, 1 11/16\&quot; nut, matching wood cavity covers, and a standard form-fitted case.&lt;/p&gt;
         ///&lt;p&gt;Available custom upgrades include:&lt;/p&gt;
         ///&lt;ul&gt;

@@ -9,9 +9,10 @@ namespace MichaelsMusic.Models
         public string BridgePickup { get; set; }
         public string Capacitors { get; set; }
         public bool CarvedTop { get; set; }
+        public string Case { get; set; }
         public bool CoilTap { get; set; }
         public string Controls { get; set; }
-        public int? FingerboardRadius { get; set; }
+        public string FingerboardRadius { get; set; }
         public string Finish { get; set; }
         public string Fretboard { get; set; }
         public int? Frets { get; set; }
