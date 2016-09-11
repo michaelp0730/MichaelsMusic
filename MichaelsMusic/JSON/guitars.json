@@ -479,5 +479,76 @@
             "EHAuV-0gRmg",
             "vlxma4FJJ5k"
         ]
+    },
+    {
+        "Slug": "grosh-electrajet",
+        "DisplayName": "Grosh ElectraJet",
+        "BrandName": "Grosh",
+        "ModelName": "ElectraJet",
+        "Cost": "$2,500 - $3,000",
+        "ShortDescription": "A modern take on classic retro styles. Perfectly balanced and drastically versatile depending on pickup configuration. This modern classic plays like a dream.",
+        "Description": "Grosh_ElectraJet_Description",
+        "CarvedTop": false,
+        "BodyStyle": "Part offset, part double-cut",
+        "BodyMaterial": "Alder or Swamp Ash",
+        "NeckMaterial": "Maple",
+        "NeckJoint": "Bolt-on",
+        "NeckFinish": "Oil",
+        "NeckBinding": "",
+        "Finish": "Ultra Thin Nitrocellulose Lacquer",
+        "FingerboardRadius": "10 in",
+        "IsHardtail": false,
+        "Bridge": "",
+        "Binding": "",
+        "NeckPickup": "Choice",
+        "BridgePickup": "Choice",
+        "ScaleLength": "25 in",
+        "Frets": 22,
+        "Fretboard": "Rosewood",
+        "Fretwire": "6150 Medium frets",
+        "Strings": 6,
+        "Knobs": "1 Volume, 1 Tone",
+        "Controls": "3-Way Pickup Selector",
+        "Headstock": "Classic Grosh",
+        "InlayMaterial": "",
+        "InlayShape": "Dot",
+        "Nut": "1 5/8 in",
+        "PickupSelector": "3-way switch",
+        "Tuners": "Locking Kluson Tuners",
+        "Case": "Custom Fitted G&G Hardshell",
+        "FeaturedImage": "grosh/.jpg",
+        "Thumbnail": "grosh/-thumb.jpg",
+        "Images": [
+        ],
+        "Links": [
+            {
+                "Text": "Official Grosh ElectraJet page",
+                "Url": "http://groshguitars.com/guitars/bolt-on-models/electrajet/"
+            },
+            {
+                "Text": "Review by Premier Guitar magazine",
+                "Url": "http://www.premierguitar.com/articles/Grosh_ElectraJet_Standard_Review"
+            },
+            {
+                "Text": "Review by Guitar Player magazine",
+                "Url": "http://www.guitarplayer.com/miscellaneous/1139/grosh-electrajet/15711"
+            },
+            {
+                "Text": "Forum from markweinguitarlessons.com",
+                "Url": "http://markweinguitarlessons.com/forums/threads/hot-or-not-grosh-electrajet-vt.40233/"
+            }
+        ],
+        "YouTubeIds": [
+            "__SVI8sjn-M",
+            "dSM9B-tvV8Q",
+            "/nya7x2x33do",
+            "Cst6Tc-vT1E",
+            "tkGcdledo94",
+            "dVIGHnTzo7E",
+            "XXZfskCoqyI",
+            "2cbCYRB58hU",
+            "t3E9VJrNNyM",
+            "LVsReDSJ0ak"
+        ]
     }
 ]

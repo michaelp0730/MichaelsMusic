@@ -110,6 +110,16 @@ namespace MichaelsMusic.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to &lt;p&gt;A modern classic. Since its launch, the ElectraJet has created amazing buzz and excitement in the guitar community. This truly original and innovative new design combines the classic, vintage styling for which Grosh Guitars is known with modern flare and edge. The ElectraJet exudes classic vintage tones with a slightly heavier and thicker voice compared to the Retro Classic.&lt;/p&gt;
+        ///&lt;p&gt; Arguably our most versatile instrument depending on pickup configuration ... from jazz to rock to funk to blues to &quot;heavy&quot; [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string Grosh_ElectraJet_Description {
+            get {
+                return ResourceManager.GetString("Grosh_ElectraJet_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to &lt;p&gt;The McNaught Vintage Double Cut is a Mahogany solid body carved top guitar with a Mahogany &apos;SET-THRU&apos; neck and &apos;All-Access&apos; heel. It features a flame Maple bound Indian Rosewood fingerboard with 12\&quot; radius, 22 frets, 24 3/4\&quot; compensated scale length, Mother Of Pearl &apos;Offset Block&apos; inlays, Tone Pros Tune-O-Matic bridge, Sperzel locking tuners, Wagner Dual humbuckers, 1 11/16\&quot; nut, matching wood cavity covers, and a standard form-fitted case.&lt;/p&gt;
         ///&lt;p&gt;Available custom upgrades include:&lt;/p&gt;
         ///&lt;ul&gt;
