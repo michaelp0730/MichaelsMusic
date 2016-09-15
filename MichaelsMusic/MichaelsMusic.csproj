@@ -194,6 +194,13 @@
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="images\guitars\anderson\anderson-icon-1.jpg" />
+    <Content Include="images\guitars\anderson\anderson-icon-2.jpg" />
+    <Content Include="images\guitars\anderson\anderson-icon-3.jpg" />
+    <Content Include="images\guitars\anderson\anderson-icon-4.jpg" />
+    <Content Include="images\guitars\anderson\anderson-icon-5.jpg" />
+    <Content Include="images\guitars\anderson\anderson-icon-6.jpg" />
+    <Content Include="images\guitars\anderson\anderson-icon-thumb.jpg" />
     <Content Include="images\guitars\collings\collings-290-dc-1.jpg" />
     <Content Include="images\guitars\collings\collings-290-dc-10.jpg" />
     <Content Include="images\guitars\collings\collings-290-dc-11.jpg" />

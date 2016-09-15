@@ -61,6 +61,15 @@ namespace MichaelsMusic.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to &lt;p&gt;We took the vintage guitar of your imagination, the one you secretly have always hoped to find in perfect condition at a garage sale, and improved it beyond your wildest electric guitar dreams. Wildest! Nowhere near a copycat of any kind, Icon lifts you on wings of unprecedented playability, tonality and resonance that are really astounding.  Giant vintage tones resound beyond normal expectations and unlimited string bends abound—push ‘em as far as you can push—still ringing out. So truly satisfying to p [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string Anderson_Icon_Description {
+            get {
+                return ResourceManager.GetString("Anderson_Icon_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to &lt;p&gt;Some things are simply better in pairs. With a double-cutaway mahogany body and dual hand-wound P90 pickups from Jason Lollar, the 290 DC offers unhindered access to the upper frets and a wide range of tonal possibilities. From pristine clean tones with rich harmonic complexity to hard-hitting classic rock sounds, there are few bases the 290 DC cannot cover. To further the guitar&apos;s vintage-inspired tone and aesthetic, we&apos;ve made available our own custom wraparound tailpiece (optional) that&apos;s been designe [rest of string was truncated]&quot;;.
         /// </summary>
         public static string Collings_290_DC_Description {

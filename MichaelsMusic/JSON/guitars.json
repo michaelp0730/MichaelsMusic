@@ -346,7 +346,7 @@
         "BrandName": "G&L",
         "ModelName": "Legacy",
         "Cost": "$1,400 - $1,600",
-        "ShortDescription": "The evolution of Leo Fender's classic 'S' style double-cutaway guitar - with single coils of course.",
+        "ShortDescription": "The evolution of Leo Fender's classic 'S' style double-cutaway guitar. Features include dual-fulcrum vibrato, Leo’s PTB™ system, and satin finish maple neck.",
         "Description": "GL_Legacy_Description",
         "CarvedTop": false,
         "BodyStyle": "Solidbody Double Cut Bolt Neck",
@@ -569,6 +569,57 @@
             "2cbCYRB58hU",
             "t3E9VJrNNyM",
             "LVsReDSJ0ak"
+        ]
+    },
+    {
+        "Slug": "anderson-icon",
+        "DisplayName": "Anderson Icon",
+        "BrandName": "Anderson",
+        "ModelName": "Icon",
+        "Cost": "$2,800 - $3,200",
+        "ShortDescription": "We took the vintage guitar of your imagination and improved it beyond your wildest electric guitar dreams.",
+        "Description": "Anderson_Icon_Description",
+        "CarvedTop": false,
+        "BodyStyle": "Solidbody classic S-style double cutaway",
+        "BodyMaterial": "Alder",
+        "NeckMaterial": "Maple",
+        "NeckJoint": "Anderson Wedge",
+        "IsHardtail": false,
+        "Bridge": "Vintage tremolo",
+        "NeckPickup": "Tom Anderson SC1",
+        "MiddlePickup": "Tom Anderson SC1",
+        "BridgePickup": "Tom Anderson SC2",
+        "ScaleLength": "25.5 in.",
+        "Frets": 22,
+        "Fretboard": "Rosewood or Maple",
+        "Strings": 6,
+        "Controls": "1 Volume, 2 Tone",
+        "Headstock": "Anderson",
+        "InlayShape": "Dot",
+        "Knobs": "Numbered",
+        "Nut": "1 11/16 in",
+        "PickupSelector": "5-way switch",
+        "Tuners": "Locking",
+        "FeaturedImage": "anderson/anderson-icon-6.jpg",
+        "Thumbnail": "anderson/anderson-icon-thumb.jpg",
+        "Images": [
+            "anderson/anderson-icon-1.jpg",
+            "anderson/anderson-icon-2.jpg",
+            "anderson/anderson-icon-3.jpg",
+            "anderson/anderson-icon-4.jpg",
+            "anderson/anderson-icon-5.jpg",
+            "anderson/anderson-icon-6.jpg"
+        ],
+        "Links": [
+            {
+                "Text": "Anderson Icon official page",
+                "Url": "http://www.andersonguitarworks.com/icon/"
+            }
+        ],
+        "YouTubeIds": [
+            "VM3bjYGqX-4",
+            "KjGTck3FFZs",
+            "9k1b55rOyio"
         ]
     }
 ]
