@@ -621,5 +621,72 @@
             "KjGTck3FFZs",
             "9k1b55rOyio"
         ]
+    },
+    {
+        "Slug": "anderson-raven",
+        "DisplayName": "Anderson Raven",
+        "BrandName": "Anderson",
+        "ModelName": "Raven",
+        "Cost": "$2,800 - $3,200",
+        "ShortDescription": "The Raven:  a no holds barred Offset guitar, designed from the ground up to play impeccably.",
+        "Description": "Anderson_Raven_Description",
+        "CarvedTop": false,
+        "BodyStyle": "Solidbody classic S-style double cutaway",
+        "BodyMaterial": "Alder / Mahogany",
+        "NeckMaterial": "Maple / Mahogany",
+        "NeckJoint": "Anderson Wedge",
+        "IsHardtail": false,
+        "Bridge": "Vintage tremolo",
+        "NeckPickup": "Choice of Anderson pickups",
+        "BridgePickup": "Choice of Anderson pickups",
+        "ScaleLength": "25.5 or 24.75 in.",
+        "Frets": 22,
+        "Fretboard": "Rosewood",
+        "Strings": 6,
+        "Controls": "Volume, Tone, & Mini Toggles",
+        "Headstock": "Anderson",
+        "InlayShape": "Dot",
+        "Knobs": "Choice",
+        "Nut": "1 11/16 in",
+        "PickupSelector": "3-way switch",
+        "Tuners": "Locking",
+        "FeaturedImage": "anderson/anderson-raven-15.jpg",
+        "Thumbnail": "anderson/anderson-raven-thumb.jpg",
+        "Images": [
+            "anderson/anderson-raven-1.jpg",
+            "anderson/anderson-raven-2.jpg",
+            "anderson/anderson-raven-3.jpg",
+            "anderson/anderson-raven-4.jpg",
+            "anderson/anderson-raven-5.jpg",
+            "anderson/anderson-raven-6.jpg",
+            "anderson/anderson-raven-7.jpg",
+            "anderson/anderson-raven-8.jpg",
+            "anderson/anderson-raven-9.jpg",
+            "anderson/anderson-raven-10.jpg",
+            "anderson/anderson-raven-11.jpg",
+            "anderson/anderson-raven-12.jpg",
+            "anderson/anderson-raven-13.jpg",
+            "anderson/anderson-raven-14.jpg",
+            "anderson/anderson-raven-15.jpg",
+            "anderson/anderson-raven-16.jpg",
+            "anderson/anderson-raven-17.jpg"
+        ],
+        "Links": [
+            {
+                "Text": "Anderson Raven official page",
+                "Url": "http://www.andersonguitarworks.com/raven/"
+            },
+            {
+                "Text": "Anderson Guitar Tales (3/18/2016)",
+                "Url": "http://www.andersonguitarworks.com/guitar-tales/2016/4/4/march-18-2016"
+            }
+        ],
+        "YouTubeIds": [
+            "OZdcBQm7BeY",
+            "XTz_kVexTnY",
+            "vB9NWSfo5Yo",
+            "aj7oyAEt0f0",
+            "SxM371_iVy0"
+        ]
     }
 ]

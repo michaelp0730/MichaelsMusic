@@ -70,6 +70,19 @@ namespace MichaelsMusic.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to &lt;p&gt; To make you exceedingly happy, we offer them in several varieties:&lt;/p&gt;
+        ///&lt;p&gt;&lt;strong&gt;Raven&lt;/strong&gt; - Our interpretation of the perfect offset guitar. 25 1/2-inch scale, traditional pickguard and control layout. Tone wood body, contours or not.&lt;/p&gt;
+        ///&lt;p&gt;&lt;strong&gt;Superbird&lt;/strong&gt; - The mahogany bird. Big tone is king for this special Raven. Solid mahogany body makes a bold statement in form as well as function.&lt;/p&gt;
+        ///&lt;h2&gt;Raven&lt;/h2&gt;
+        ///&lt;h5&gt;The offset styled guitar that was designed from the outset to play, exq [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string Anderson_Raven_Description {
+            get {
+                return ResourceManager.GetString("Anderson_Raven_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to &lt;p&gt;Some things are simply better in pairs. With a double-cutaway mahogany body and dual hand-wound P90 pickups from Jason Lollar, the 290 DC offers unhindered access to the upper frets and a wide range of tonal possibilities. From pristine clean tones with rich harmonic complexity to hard-hitting classic rock sounds, there are few bases the 290 DC cannot cover. To further the guitar&apos;s vintage-inspired tone and aesthetic, we&apos;ve made available our own custom wraparound tailpiece (optional) that&apos;s been designe [rest of string was truncated]&quot;;.
         /// </summary>
         public static string Collings_290_DC_Description {
