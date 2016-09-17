@@ -631,7 +631,7 @@
         "ShortDescription": "The Raven:  a no holds barred Offset guitar, designed from the ground up to play impeccably.",
         "Description": "Anderson_Raven_Description",
         "CarvedTop": false,
-        "BodyStyle": "Solidbody classic S-style double cutaway",
+        "BodyStyle": "Solidbody classic offset",
         "BodyMaterial": "Alder / Mahogany",
         "NeckMaterial": "Maple / Mahogany",
         "NeckJoint": "Anderson Wedge",
@@ -687,6 +687,69 @@
             "vB9NWSfo5Yo",
             "aj7oyAEt0f0",
             "SxM371_iVy0"
+        ]
+    },
+    {
+        "Slug": "nash-s63",
+        "DisplayName": "Nash S-63",
+        "BrandName": "Nash",
+        "ModelName": "S-63",
+        "Cost": "$1,800 - $2,200",
+        "ShortDescription": "A classic early 60's inspired 'S', featuring premium single coil pickups, vintage tremolo, and rosewood fingerboard - all hand made in Olympia, WA to your desired level of aging.",
+        "Description": "Nash_S63_Description",
+        "CarvedTop": false,
+        "BodyStyle": "Solidbody classic S-style double cutaway",
+        "BodyMaterial": "Alder",
+        "NeckMaterial": "Maple",
+        "NeckShape": "C profile",
+        "NeckJoint": "Bolt-on",
+        "IsHardtail": false,
+        "Bridge": "Traditional tremolo bridge with steel block (hardtail available)",
+        "NeckPickup": "Lollar, DiMarzio, Seymour Duncan, or Fralin single coil",
+        "MiddlePickup": "Lollar, DiMarzio, Seymour Duncan, or Fralin single coil",
+        "BridgePickup": "Lollar, DiMarzio, Seymour Duncan, or Fralin single coil",
+        "Pickguard": "3-ply",
+        "ScaleLength": "25.5 in.",
+        "Frets": 21,
+        "Fretboard": "Rosewood",
+        "FingerboardRadius": "10 in.",
+        "Fretwire": "6105",
+        "Strings": 6,
+        "Controls": "1 Volume, 2 Tone",
+        "Headstock": "Classic S",
+        "InlayShape": "Dot",
+        "Knobs": "Numbered",
+        "Nut": "1 5/8 in. Graphtech self lubricating tusq nut",
+        "Capacitors": "250K CTS pots, Sprague Orange Drop capacitors",
+        "PickupSelector": "CRL 5-way switch",
+        "Tuners": "Vintage",
+        "FeaturedImage": "nash/nash-s63-7.jpg",
+        "Thumbnail": "nash/nash-s63-thumb.jpg",
+        "Images": [
+            "nash/nash-s63-1.jpg",
+            "nash/nash-s63-2.jpg",
+            "nash/nash-s63-3.jpg",
+            "nash/nash-s63-4.jpg",
+            "nash/nash-s63-5.jpg",
+            "nash/nash-s63-6.jpg",
+            "nash/nash-s63-7.jpg",
+            "nash/nash-s63-8.jpg",
+            "nash/nash-s63-9.jpg",
+            "nash/nash-s63-10.jpg",
+            "nash/nash-s63-11.jpg",
+            "nash/nash-s63-12.jpg"
+        ],
+        "Links": [
+            {
+                "Text": "Nash 'S' models official page",
+                "Url": "http://nashguitars.com/smodels.html"
+            }
+        ],
+        "YouTubeIds": [
+            "PvMULnoc9ck",
+            "7jUecqIRpgA",
+            "CiKrq4yTm1U",
+            "Uv2qcWE9y20"
         ]
     }
 ]

@@ -30,6 +30,7 @@ namespace MichaelsMusic.Models
         public string NeckPickup { get; set; }
         public string NeckShape { get; set; }
         public string Nut { get; set; }
+        public string Pickguard { get; set; }
         public string PickupSelector { get; set; }
         public string ScaleLength { get; set; }
         public int? Strings { get; set; }

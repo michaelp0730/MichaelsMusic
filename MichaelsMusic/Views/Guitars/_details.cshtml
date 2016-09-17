@@ -223,6 +223,12 @@
                         <dd>@Model.NeckPickup</dd>
                     }
 
+                    @if (!string.IsNullOrEmpty(Model.Pickguard))
+                    {
+                        <dt>Pick guard:</dt>
+                        <dd>@Model.Pickguard</dd>
+                    }
+
                     @if (!string.IsNullOrEmpty(Model.PickupSelector))
                     {
                         <dt>Pickup Selector:</dt>

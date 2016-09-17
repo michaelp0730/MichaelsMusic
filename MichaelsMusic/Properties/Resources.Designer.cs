@@ -154,6 +154,16 @@ namespace MichaelsMusic.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to &lt;p&gt;The Nash S-series guitars are all based on classic Fender Stratocaster designs. The various Nash &apos;S&apos; models (S-57, S-63, S-67, &amp;amp; S-81) pay homage to the strat at different points in it&apos;s life. While each model has it&apos;s unique characteristics, one thing all Nash guitars have in common is an incredible build quality. Each guitar is made by hand at Bill Nash&apos;s shop in Olympia, WA.&lt;/p&gt;
+        ///&lt;p&gt;The wood selection for each guitar is top-notch, as is every component used on the guitar. These are &apos;player&apos; guitar [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string Nash_S63_Description {
+            get {
+                return ResourceManager.GetString("Nash_S63_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to &lt;p&gt;The Custom 24 is the quintessential PRS guitar. This iconic instrument was the first model that Paul Reed Smith brought to the public at PRS Guitars’ first Winter NAMM show in 1985 and has been a top seller ever since. Played by internationally touring artists, gigging musicians, and aspiring players, the Custom 24 features PRS’s patented tremolo system and PRS 85/15 treble and bass pickups with volume and tone controls and a 5-way blade switch. 85/15 pickups were personally designed by Paul Reed Smith f [rest of string was truncated]&quot;;.
         /// </summary>
         public static string PRS_Custom24_Description {
